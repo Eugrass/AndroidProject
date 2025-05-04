@@ -1,0 +1,55 @@
+{
+    "meta": {
+      "formatVersion": 1,
+      "generatedAt": "2025-05-04T03:00:00Z"
+    },
+  
+    "authors": [
+      {
+        "id": "au_001",
+        "name": "Profile 1",
+        "avatarUrl": "img/authors/profile1.png"
+      }
+    ],
+  
+    "ingredients": [
+      {
+        "id": "ing_001",
+        "name": "Star",
+        "imgUrl": "img/ingredients/star.png"
+      }
+    ],
+  
+    "recipes": [
+      {
+        "id": "rcp_101",
+        "name": "Sicilian Caponata",
+        "authorId": "au_001",
+        "region": "Sicily",
+        "city": "Palermo",
+        "prepMin": 40,
+  
+        "localImgUrl": "img/recipes/recipe1.png",
+  
+        "ratings": {
+          "taste": 4.7,
+          "healthiness": 4.3,
+          "difficulty": 2.0,
+          "overall": 4.4
+        },
+  
+        "instructions": [
+          "Heat the olive oil in a large pan over medium heat.",
+          "Add diced eggplants, sauté 10 min until golden.",
+          "Stir in celery, capers, olives and cook 5 min.",
+          "Add tomato passata, vinegar, sugar; simmer 20 min.",
+          "Season, let cool; serve with fresh basil."
+        ],
+  
+        "ingredients": [
+          { "ingredientId": "ing_001", "quantity": "3 tbsp" }
+        ]
+      }
+    ]
+  }
+  
