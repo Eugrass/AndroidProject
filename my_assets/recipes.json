@@ -111,10 +111,7 @@
           { "ingredientId": "ing_010", "quantity": 40 },
           { "ingredientId": "ing_007", "quantity": 40 },
           { "ingredientId": "ing_002", "quantity": 250 },
-          { "ingredientId": "ing_003", "quantity": 80 },
-          
-          
-
+          { "ingredientId": "ing_003", "quantity": 80 }
         ]
       },
 
