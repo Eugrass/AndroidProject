@@ -82,6 +82,99 @@
         "name": "Su",
         "imgUrl": "img/ingredients/su.png",
           "unit": "ml"
+      },{
+        "id": "ing_014",
+        "name": "Ilık süt",
+        "imgUrl": "img/ingredients/sut.png",
+        "unit": "ml"
+      },
+      {
+        "id": "ing_015",
+        "name": "Yaş maya",
+        "imgUrl": "img/ingredients/yasmaya.png",
+        "unit": "g"
+      },
+      {
+        "id": "ing_016",
+        "name": "Yoğurt",
+        "imgUrl": "img/ingredients/yogurt.png",
+        "unit": "g"
+      },
+      {
+        "id": "ing_017",
+        "name": "Kabartma tozu",
+        "imgUrl": "img/ingredients/kabartmatozu.png",
+        "unit": "g"
+      },
+      {
+        "id": "ing_018",
+        "name": "Un",
+        "imgUrl": "img/ingredients/un.png",
+        "unit": "g"
+      },
+      {
+        "id": "ing_019",
+        "name": "Kıyma",
+        "imgUrl": "img/ingredients/kiyma.png",
+        "unit": "g"
+      },
+      {
+        "id": "ing_020",
+        "name": "Kuru soğan",
+        "imgUrl": "img/ingredients/kurusogan.png",
+        "unit": "adet"
+      },
+      {
+        "id": "ing_021",
+        "name": "Pul biber",
+        "imgUrl": "img/ingredients/pulbiber.png",
+        "unit": "g"
+      },
+      {
+        "id": "ing_022",
+        "name": "Kimyon",
+        "imgUrl": "img/ingredients/kimyon.png",
+        "unit": "g"
+      },
+      {
+        "id": "ing_023",
+        "name": "Toz kırmızı biber",
+        "imgUrl": "img/ingredients/tozbiber.png",
+        "unit": "g"
+      },
+      {
+        "id": "ing_024",
+        "name": "Domates salçası",
+        "imgUrl": "img/ingredients/salca.png",
+        "unit": "g"
+      },
+      {
+        "id": "ing_025",
+        "name": "Sarımsak",
+        "imgUrl": "img/ingredients/sarimsak.png",
+        "unit": "g"
+      },
+  
+      {
+        "id": "ing_026",
+        "name": "Kuru nane",
+        "imgUrl": "img/ingredients/kurunane.png",
+        "unit": "g"
+      },{
+        "id": "ing_027",
+        "name": "Sıvı yağ",
+        "imgUrl": "img/ingredients/siviyag.png",
+        "unit": "ml"
+      },{
+        "id": "ing_028",
+        "name": "Aşurelik buğday",
+        "imgUrl": "img/ingredients/asurelikbugday.png",
+        "unit": "g"
+      },{
+        "id": "ing_029",
+        "name": "Kuzu But",
+        "imgUrl": "img/ingredients/kuzubut.png",
+        "unit": "g"
       }
     ],
   
@@ -117,48 +210,68 @@
       },
 
     {
-        "id": "rcp_102",
-        "name": "r2",
-        "authorId": "au_001",
-        "region": "Sicily",
-        "city": "Palermo",
-        "prepMin": 40,
-        "localImgUrl": "img/recipes/recipe1.png",
-        "ratings": {
-          "taste": 4.7,
-          "healthiness": 4.3,
-          "difficulty": 2.0,
-          "overall": 4.4
-        },
-        "instructions":
-          "Heat the olive oil in a large pan over medium heat.\nAdd diced eggplants, sauté 10 min until golden.\nStir in celery, capers, olives and cook 5 min.\nAdd tomato passata, vinegar, sugar; simmer 20 min.\nSeason, let cool; serve with fresh basil.",
-  
-        "ingredients": [
-          { "ingredientId": "ing_001", "quantity": 4 }
-        ]
+       "id": "rcp_102",
+      "name": "Kayseri Yağ Mantısı",
+      "authorId": "au_002",
+      "region": "İç Anadolu",
+      "city": "Kayseri",
+      "prepMin": 60,
+      "localImgUrl": "img/recipes/kayseriyagmantisi.png",
+      "ratings": {
+        "taste": 4.9,
+        "healthiness": 3.8,
+        "difficulty": 3.5,
+        "overall": 4.6
+      },
+      "instructions": "1. Soğanı küçük doğrayın. 400 g kıymayı baharatlarla karıştırıp yoğurarak iç harcı hazırlayın.\n2. Süt (220 ml), su (300 ml), yaş maya (42 g) ve şeker (5 g) yoğurma kabına alın, karıştırın ve 5 dk bekleyin.\n3. Yoğurt (150 g), sıvı yağ (100 ml), tuz (10 g), kabartma tozu (5 g) ekleyin. 700 g unla yumuşak, hafif yapışkan bir hamur yoğurun. 1 saat mayalandırın.\n4. Hamuru gazını alıp iki bezeye bölün. Birini ince açın.\n5. Hamurun yarısına çay bardağı ile iz çıkarıp kıymalı harç koyun. Diğer yarısını kapatın.\n6. Çay bardağıyla kesip şekil verin. Yağlı kağıda dizin.\n7. Kızgın yağda arkalı önlü kızartın.\n8. Sarımsaklı yoğurt ve salçalı sos (60 g salça, 30 ml sıvı yağ, 40 g tereyağı, 100 ml su) ile servis edin.",
+      "ingredients": [
+        { "ingredientId": "ing_014", "quantity": 220 },
+        { "ingredientId": "ing_013", "quantity": 300 },
+        { "ingredientId": "ing_015", "quantity": 42 },
+        { "ingredientId": "ing_012", "quantity": 5 },
+        { "ingredientId": "ing_011", "quantity": 10 },
+        { "ingredientId": "ing_027", "quantity": 100 },
+        { "ingredientId": "ing_016", "quantity": 150 },
+        { "ingredientId": "ing_017", "quantity": 5 },
+        { "ingredientId": "ing_018", "quantity": 700 },
+        { "ingredientId": "ing_019", "quantity": 400 },
+        { "ingredientId": "ing_020", "quantity": 1 },
+        { "ingredientId": "ing_006", "quantity": 2 },
+        { "ingredientId": "ing_021", "quantity": 3 },
+        { "ingredientId": "ing_022", "quantity": 1 },
+        { "ingredientId": "ing_023", "quantity": 1 },
+        { "ingredientId": "ing_024", "quantity": 60 },
+        { "ingredientId": "ing_003", "quantity": 40 },
+        { "ingredientId": "ing_009", "quantity": 30 },
+        { "ingredientId": "ing_013", "quantity": 100 },
+        { "ingredientId": "ing_025", "quantity": 300 },
+        { "ingredientId": "ing_026", "quantity": 1 }
+      ]
       },
 
 
         {
-        "id": "rcp_103",
-        "name": "ttt",
-        "authorId": "au_001",
-        "region": "Sicily",
-        "city": "Palermo",
-        "prepMin": 40,
-        "localImgUrl": "img/recipes/recipe1.png",
-        "ratings": {
-          "taste": 4.7,
-          "healthiness": 4.3,
-          "difficulty": 2.0,
-          "overall": 4.4
-        },
-        "instructions":
-          "Heat the olive oil in a large pan over medium heat.\nAdd diced eggplants, sauté 10 min until golden.\nStir in celery, capers, olives and cook 5 min.\nAdd tomato passata, vinegar, sugar; simmer 20 min.\nSeason, let cool; serve with fresh basil.",
-  
-        "ingredients": [
-          { "ingredientId": "ing_001", "quantity": 5 }
-        ]
+          "id": "rcp_103",
+          "name": "Kuzu Etli Keşkek",
+          "authorId": "au_001",
+          "region": "Ege",
+          "city": "Denizli",
+          "prepMin": 90,
+          "localImgUrl": "img/recipes/kuzuketlikeskek.png",
+          "ratings": {
+            "taste": 4.8,
+            "healthiness": 4.4,
+            "difficulty": 2.2,
+            "overall": 4.6
+          },
+          "instructions": "1. 500 g kuzu eti ve 300 g aşurelik buğdayı güzelce yıkayın.\n2. Düdüklü tencereye alın, 1350 ml su ve 9 g tuz ekleyin.\n3. Tencere düdüklendikten sonra orta ateşte yaklaşık 1 saat 20 dakika pişirin.\n4. Tencerenin basıncı çıktıktan sonra kapağını açın.\n5. Etleri kemiklerinden ayırın.\n6. Tahta kaşıkla veya blenderla ezerek buğday ve eti karıştırın.\n7. Macun kıvamına gelene kadar karıştırmaya devam edin.\n8. Servis esnasında 40 g tereyağında 2 g toz biber yakıp üzerine gezdirin.",
+          "ingredients": [
+            { "ingredientId": "ing_029", "quantity": 500 },
+            { "ingredientId": "ing_013", "quantity": 1350 },
+            { "ingredientId": "ing_011", "quantity": 9 },
+            { "ingredientId": "ing_003", "quantity": 40 },
+            { "ingredientId": "ing_023", "quantity": 2 }
+          ]
       }
         
     ]
