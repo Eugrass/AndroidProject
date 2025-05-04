@@ -8,7 +8,7 @@
       {
         "id": "au_001",
         "name": "Profile 1",
-        "avatarUrl": "profile1.png"
+        "avatarUrl": "img/authors/profile1.png"
       }
     ],
   
@@ -16,7 +16,7 @@
       {
         "id": "ing_001",
         "name": "Star",
-        "imgUrl": "star.png"
+        "imgUrl": "img/ingredients/star.png"
       }
     ],
   
@@ -28,7 +28,7 @@
         "region": "Sicily",
         "city": "Palermo",
         "prepMin": 40,
-        "localImgUrl": "recipe1.png",
+        "localImgUrl": "img/recipes/recipe1.png",
         "ratings": {
           "taste": 4.7,
           "healthiness": 4.3,
@@ -50,7 +50,7 @@
         "region": "Sicily",
         "city": "Palermo",
         "prepMin": 40,
-        "localImgUrl": "recipe1.png",
+        "localImgUrl": "img/recipes/recipe1.png",
         "ratings": {
           "taste": 4.7,
           "healthiness": 4.3,
@@ -73,7 +73,7 @@
         "region": "Sicily",
         "city": "Palermo",
         "prepMin": 40,
-        "localImgUrl": "recipe1.png",
+        "localImgUrl": "img/recipes/recipe1.png",
         "ratings": {
           "taste": 4.7,
           "healthiness": 4.3,
