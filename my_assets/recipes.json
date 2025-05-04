@@ -16,7 +16,8 @@
       {
         "id": "ing_001",
         "name": "Star",
-        "imgUrl": "img/ingredients/star.png"
+        "imgUrl": "img/ingredients/star.png",
+        "unit": "g"
       }
     ],
   
