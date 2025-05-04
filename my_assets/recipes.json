@@ -39,11 +39,7 @@
         },
   
         "instructions":
-          "Heat the olive oil in a large pan over medium heat.\n,
-          Add diced eggplants, sauté 10 min until golden.\n,
-          Stir in celery, capers, olives and cook 5 min.\n,
-          Add tomato passata, vinegar, sugar; simmer 20 min.\n,
-          Season, let cool; serve with fresh basil.",
+          "Heat the olive oil in a large pan over medium heat.\nAdd diced eggplants, sauté 10 min until golden.\nStir in celery, capers, olives and cook 5 min.\nAdd tomato passata, vinegar, sugar; simmer 20 min.\nSeason, let cool; serve with fresh basil.",
   
         "ingredients": [
           { "ingredientId": "ing_001", "quantity": "3 tbsp" }
