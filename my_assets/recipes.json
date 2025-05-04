@@ -45,7 +45,8 @@
       },{
         "id": "ing_006",
         "name": "Karabiber",
-        "imgUrl": "img/ingredients/karabiber.png"
+        "imgUrl": "img/ingredients/karabiber.png",
+          "unit": "g"
       },{
         "id": "ing_007",
         "name": "Badem",
