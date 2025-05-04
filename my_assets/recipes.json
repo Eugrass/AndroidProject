@@ -8,11 +8,11 @@
       {
         "id": "au_001",
         "name": "Nurten Çiftçioğlu",
-        "avatarUrl": "profile1.png"
+        "avatarUrl": "img/authors/profile1.png"
       },{
         "id": "au_002",
         "name": "Muhammed Enes Uğraş",
-        "avatarUrl": "profile2.png"
+        "avatarUrl": "img/authors/profile2.png"
       }
     ],
   
@@ -20,55 +20,67 @@
       {
         "id": "ing_001",
         "name": "Kuzu Kuşbaşı Et",
-        "imgUrl": "kusbasi.png"
+        "imgUrl": "img/ingredients/kusbasi.png",
+        "unit": "g"
       },{
         "id": "ing_002",
         "name": "Tel Kadayıf",
-        "imgUrl": "telkadayif.png"
+        "imgUrl": "img/ingredients/telkadayif.png",
+          "unit": "g"
       },{
         "id": "ing_003",
         "name": "Tereyağı",
-        "imgUrl": "tereyagi.png"
+        "imgUrl": "img/ingredients/tereyagi.png",
+          "unit": "g"
       },{
         "id": "ing_004",
         "name": "Pirinç",
-        "imgUrl": "pirinc.png"
+        "imgUrl": "img/ingredients/pirinc.png",
+          "unit": "g"
       },{
         "id": "ing_005",
         "name": "Yenibahar",
-        "imgUrl": "yenibahar.png"
+        "imgUrl": "img/ingredients/yenibahar.png",
+          "unit": "g"
       },{
         "id": "ing_006",
         "name": "Karabiber",
-        "imgUrl": "karabiber.png"
+        "imgUrl": "img/ingredients/karabiber.png"
       },{
         "id": "ing_007",
         "name": "Badem",
-        "imgUrl": "badem.png"
+        "imgUrl": "img/ingredients/badem.png",
+          "unit": "g"
       },{
         "id": "ing_008",
         "name": "Tarçın",
-        "imgUrl": "tarcin.png"
+        "imgUrl": "img/ingredients/tarcin.png",
+          "unit": "g"
       },{
         "id": "ing_009",
         "name": "Zeytinyağı",
-        "imgUrl": "img/ingredients/zeytinyagi.png"
+        "imgUrl": "img/ingredients/zeytinyagi.png",
+          "unit": "ml"
       },{
         "id": "ing_010",
         "name": "Kuş Üzümü",
-        "imgUrl": "img/ingredients/kusuzumu.png"
+        "imgUrl": "img/ingredients/kusuzumu.png",
+          "unit": "g"
       },{
         "id": "ing_011",
         "name": "Tuz",
-        "imgUrl": "img/ingredients/tuz.png"
+        "imgUrl": "img/ingredients/tuz.png",
+          "unit": "g"
       },{
         "id": "ing_012",
         "name": "Şeker",
-        "imgUrl": "img/ingredients/seker.png"
+        "imgUrl": "img/ingredients/seker.png",
+          "unit": "g"
       },{
         "id": "ing_013",
         "name": "Su",
-        "imgUrl": "img/ingredients/su.png"
+        "imgUrl": "img/ingredients/su.png",
+          "unit": "ml"
       }
     ],
   
@@ -124,7 +136,7 @@
           "Heat the olive oil in a large pan over medium heat.\nAdd diced eggplants, sauté 10 min until golden.\nStir in celery, capers, olives and cook 5 min.\nAdd tomato passata, vinegar, sugar; simmer 20 min.\nSeason, let cool; serve with fresh basil.",
   
         "ingredients": [
-          { "ingredientId": "ing_001", "quantity": "4" }
+          { "ingredientId": "ing_001", "quantity": 4 }
         ]
       },
 
@@ -147,7 +159,7 @@
           "Heat the olive oil in a large pan over medium heat.\nAdd diced eggplants, sauté 10 min until golden.\nStir in celery, capers, olives and cook 5 min.\nAdd tomato passata, vinegar, sugar; simmer 20 min.\nSeason, let cool; serve with fresh basil.",
   
         "ingredients": [
-          { "ingredientId": "ing_001", "quantity": "5" }
+          { "ingredientId": "ing_001", "quantity": 5 }
         ]
       }
         
