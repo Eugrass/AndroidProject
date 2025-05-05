@@ -236,7 +236,7 @@
       "id": "ing_037",
       "name": "Labada Yaprağı",
       "imgUrl": "img/ingredients/labada.png",
-      "unit": "demet"
+      "unit": "adet"
     },
     {
       "id": "ing_038",
@@ -1686,7 +1686,7 @@
         },
         {
           "ingredientId": "ing_022",
-          "quantity": 1.5
+          "quantity": 1
         },
         {
           "ingredientId": "ing_040",
@@ -1743,8 +1743,8 @@
         { "ingredientId": "ing_046", "quantity": 1 },
         { "ingredientId": "ing_077", "quantity": 80 },
         { "ingredientId": "ing_061", "quantity": 1 },
-        { "ingredientId": "ing_023", "quantity": 1.5 },
-        { "ingredientId": "ing_006", "quantity": 0.5 },
+        { "ingredientId": "ing_023", "quantity": 1 },
+        { "ingredientId": "ing_006", "quantity": 1 },
         { "ingredientId": "ing_011", "quantity": 5 },
         { "ingredientId": "ing_076", "quantity": 40 }
       ]
