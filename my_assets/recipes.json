@@ -1,333 +1,545 @@
 {
-    "meta": {
-      "formatVersion": 1,
-      "generatedAt": "2025-05-04T03:00:00Z"
-    },
-  
-    "authors": [
-      {
-        "id": "au_001",
-        "name": "Nurten Çiftçioğlu",
-        "avatarUrl": "img/authors/profile1.png"
-      },{
-        "id": "au_002",
-        "name": "Muhammed Enes Uğraş",
-        "avatarUrl": "img/authors/profile2.png"
-      }
-    ],
-  
-    "ingredients": [
-      {
-        "id": "ing_001",
-        "name": "Kuzu Kuşbaşı Et",
-        "imgUrl": "img/ingredients/kusbasi.png",
-        "unit": "g"
-      },{
-        "id": "ing_002",
-        "name": "Tel Kadayıf",
-        "imgUrl": "img/ingredients/telkadayif.png",
-          "unit": "g"
-      },{
-        "id": "ing_003",
-        "name": "Tereyağı",
-        "imgUrl": "img/ingredients/tereyagi.png",
-          "unit": "g"
-      },{
-        "id": "ing_004",
-        "name": "Pirinç",
-        "imgUrl": "img/ingredients/pirinc.png",
-          "unit": "g"
-      },{
-        "id": "ing_005",
-        "name": "Yenibahar",
-        "imgUrl": "img/ingredients/yenibahar.png",
-          "unit": "g"
-      },{
-        "id": "ing_006",
-        "name": "Karabiber",
-        "imgUrl": "img/ingredients/karabiber.png",
-          "unit": "g"
-      },{
-        "id": "ing_007",
-        "name": "Badem",
-        "imgUrl": "img/ingredients/badem.png",
-          "unit": "g"
-      },{
-        "id": "ing_008",
-        "name": "Tarçın",
-        "imgUrl": "img/ingredients/tarcin.png",
-          "unit": "g"
-      },{
-        "id": "ing_009",
-        "name": "Zeytinyağı",
-        "imgUrl": "img/ingredients/zeytinyagi.png",
-          "unit": "ml"
-      },{
-        "id": "ing_010",
-        "name": "Kuş Üzümü",
-        "imgUrl": "img/ingredients/kusuzumu.png",
-          "unit": "g"
-      },{
-        "id": "ing_011",
-        "name": "Tuz",
-        "imgUrl": "img/ingredients/tuz.png",
-          "unit": "g"
-      },{
-        "id": "ing_012",
-        "name": "Şeker",
-        "imgUrl": "img/ingredients/seker.png",
-          "unit": "g"
-      },{
-        "id": "ing_013",
-        "name": "Su",
-        "imgUrl": "img/ingredients/su.png",
-          "unit": "ml"
-      },{
-        "id": "ing_014",
-        "name": "Süt",
-        "imgUrl": "img/ingredients/sut.png",
-        "unit": "ml"
-      },
-      {
-        "id": "ing_015",
-        "name": "Yaş maya",
-        "imgUrl": "img/ingredients/yasmaya.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_016",
-        "name": "Yoğurt",
-        "imgUrl": "img/ingredients/yogurt.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_017",
-        "name": "Kabartma tozu",
-        "imgUrl": "img/ingredients/kabartmatozu.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_018",
-        "name": "Un",
-        "imgUrl": "img/ingredients/un.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_019",
-        "name": "Kıyma",
-        "imgUrl": "img/ingredients/kiyma.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_020",
-        "name": "Kuru soğan",
-        "imgUrl": "img/ingredients/kurusogan.png",
-        "unit": "adet"
-      },
-      {
-        "id": "ing_021",
-        "name": "Pul biber",
-        "imgUrl": "img/ingredients/pulbiber.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_022",
-        "name": "Kimyon",
-        "imgUrl": "img/ingredients/kimyon.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_023",
-        "name": "Toz kırmızı biber",
-        "imgUrl": "img/ingredients/tozbiber.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_024",
-        "name": "Domates salçası",
-        "imgUrl": "img/ingredients/salca.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_025",
-        "name": "Sarımsak",
-        "imgUrl": "img/ingredients/sarimsak.png",
-        "unit": "g"
-      },
-  
-      {
-        "id": "ing_026",
-        "name": "Kuru nane",
-        "imgUrl": "img/ingredients/kurunane.png",
-        "unit": "g"
-      },{
-        "id": "ing_027",
-        "name": "Sıvı yağ",
-        "imgUrl": "img/ingredients/siviyag.png",
-        "unit": "ml"
-      },{
-        "id": "ing_028",
-        "name": "Aşurelik buğday",
-        "imgUrl": "img/ingredients/asurelikbugday.png",
-        "unit": "g"
-      },{
-        "id": "ing_029",
-        "name": "Kuzu But",
-        "imgUrl": "img/ingredients/kuzubut.png",
-        "unit": "g"
-      },{
-        "id": "ing_030",
-        "name": "İnce Bulgur",
-        "imgUrl": "img/ingredients/bulgur.png",
-        "unit": "g"
-      },{
-        "id": "ing_031",
-        "name": "Yumurta",
-        "imgUrl": "img/ingredients/yumurta.png",
-        "unit": "adet"
-      },{
-        "id": "ing_032",
-        "name": "Madımak",
-        "imgUrl": "img/ingredients/madimak.png",
-        "unit": "g"
-      },{
-        "id": "ing_033",
-        "name": "İrmik",
-        "imgUrl": "img/ingredients/irmik.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_034",
-        "name": "Bal",
-        "imgUrl": "img/ingredients/bal.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_035",
-        "name": "Pekmez",
-        "imgUrl": "img/ingredients/pekmez.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_036",
-        "name": "Kaymak",
-        "imgUrl": "img/ingredients/kaymak.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_037",
-        "name": "Labada Yaprağı",
-        "imgUrl": "img/ingredients/labada.png",
-        "unit": "demet"
-      },
-      {
-        "id": "ing_038",
-        "name": "Peskütan",
-        "imgUrl": "img/ingredients/peskutan.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_039",
-        "name": "Yeşil Mercimek",
-        "imgUrl": "img/ingredients/yesilmercimek.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_040",
-        "name": "Tahin",
-        "imgUrl": "img/ingredients/tahin.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_041",
-        "name": "Sirke",
-        "imgUrl": "img/ingredients/sirke.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_042",
-        "name": "Ceviz İçi",
-        "imgUrl": "img/ingredients/ceviz.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_043",
-        "name": "Limon Suyu",
-        "imgUrl": "img/ingredients/limonsuyu.png",
-        "unit": "ml"
-      },
-      {
-        "id": "ing_044",
-        "name": "Dondurma",
-        "imgUrl": "img/ingredients/dondurma.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_045",
-        "name": "Antep Fıstığı",
-        "imgUrl": "img/ingredients/antepfistigi.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_046",
-        "name": "Domates",
-        "imgUrl": "img/ingredients/domates.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_047",
-        "name": "Yeşil Soğan",
-        "imgUrl": "img/ingredients/yesilsogan.png",
-        "unit": "g"
-      },
-      {
-        "id": "ing_048",
-        "name": "Maydanoz",
-        "imgUrl": "img/ingredients/maydanoz.png",
-        "unit": "g"
-      }
-      
-      
-      
-      
-      
-      
-      
-    ],
-  
-    "recipes": [
-      {
-        "id": "rcp_101",
-        "name": "Kadayıflı Divriği Pilavı",
-        "authorId": "au_001",
-        "region": "İç Anadolu",
-        "city": "Sivas",
-        "prepMin": 35,
-        "localImgUrl": "img/recipes/kadayiflidivrigipilavi.png",
-        "ratings": {
-          "taste": 4.7,
-          "healthiness": 4.3,
-          "difficulty": 2.0,
-          "overall": 4.4
-        },
-        "instructions": "1. Eti 100 ml su ile (dana ise düdüklüde, kuzu ise doğrudan kavurarak) yumuşayana kadar pişirin. Tuz ve karabiber ekleyin.\n2. Pirinci 10 g tereyağıyla kavurun.\n3. 900 ml su, 3 g kesme şeker ve 5 g tuz ekleyip kısık ateşte pilavı pişirin, sonra dinlendirin.\n4. Pilava karabiber, kuş üzümü, badem ve eti ekleyip karıştırın.\n5. Kadayıfın yapışık kısımlarını ayırıp 60 g eritilmiş tereyağıyla harmanlayın.\n6. Derin bir kaseyi 20 g tereyağıyla yağlayın, isteğe bağlı olarak dibine badem dizin.\n7. Kadayıfla kaseyi kaplayın, pilavı ortasına koyun, üzerini tekrar kadayıfla kapatın.\n8. 200°C fırında alt rafta 25–30 dakika pişirin, kadayıf kızarana kadar bekleyin.",
-  
-        "ingredients": [
-          { "ingredientId": "ing_001", "quantity": 400 },
-          { "ingredientId": "ing_004", "quantity": 300 },
-          { "ingredientId": "ing_013", "quantity": 900 },
-          { "ingredientId": "ing_012", "quantity": 3 },
-          { "ingredientId": "ing_011", "quantity": 6 },
-          { "ingredientId": "ing_006", "quantity": 2 },
-          { "ingredientId": "ing_010", "quantity": 40 },
-          { "ingredientId": "ing_007", "quantity": 40 },
-          { "ingredientId": "ing_002", "quantity": 250 },
-          { "ingredientId": "ing_003", "quantity": 80 }
-        ]
-      },
-
+  "meta": {
+    "formatVersion": 1,
+    "generatedAt": "2025-05-04T03:00:00Z"
+  },
+  "authors": [
     {
-       "id": "rcp_102",
+      "id": "au_001",
+      "name": "Nurten Çiftçioğlu",
+      "avatarUrl": "img/authors/profile1.png"
+    },
+    {
+      "id": "au_002",
+      "name": "Muhammed Enes Uğraş",
+      "avatarUrl": "img/authors/profile2.png"
+    }
+  ],
+  "ingredients": [
+    {
+      "id": "ing_001",
+      "name": "Kuzu Kuşbaşı Et",
+      "imgUrl": "img/ingredients/kusbasi.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_002",
+      "name": "Tel Kadayıf",
+      "imgUrl": "img/ingredients/telkadayif.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_003",
+      "name": "Tereyağı",
+      "imgUrl": "img/ingredients/tereyagi.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_004",
+      "name": "Pirinç",
+      "imgUrl": "img/ingredients/pirinc.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_005",
+      "name": "Yenibahar",
+      "imgUrl": "img/ingredients/yenibahar.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_006",
+      "name": "Karabiber",
+      "imgUrl": "img/ingredients/karabiber.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_007",
+      "name": "Badem",
+      "imgUrl": "img/ingredients/badem.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_008",
+      "name": "Tarçın",
+      "imgUrl": "img/ingredients/tarcin.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_009",
+      "name": "Zeytinyağı",
+      "imgUrl": "img/ingredients/zeytinyagi.png",
+      "unit": "ml"
+    },
+    {
+      "id": "ing_010",
+      "name": "Kuş Üzümü",
+      "imgUrl": "img/ingredients/kusuzumu.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_011",
+      "name": "Tuz",
+      "imgUrl": "img/ingredients/tuz.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_012",
+      "name": "Şeker",
+      "imgUrl": "img/ingredients/seker.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_013",
+      "name": "Su",
+      "imgUrl": "img/ingredients/su.png",
+      "unit": "ml"
+    },
+    {
+      "id": "ing_014",
+      "name": "Süt",
+      "imgUrl": "img/ingredients/sut.png",
+      "unit": "ml"
+    },
+    {
+      "id": "ing_015",
+      "name": "Yaş maya",
+      "imgUrl": "img/ingredients/yasmaya.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_016",
+      "name": "Yoğurt",
+      "imgUrl": "img/ingredients/yogurt.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_017",
+      "name": "Kabartma tozu",
+      "imgUrl": "img/ingredients/kabartmatozu.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_018",
+      "name": "Un",
+      "imgUrl": "img/ingredients/un.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_019",
+      "name": "Kıyma",
+      "imgUrl": "img/ingredients/kiyma.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_020",
+      "name": "Kuru soğan",
+      "imgUrl": "img/ingredients/kurusogan.png",
+      "unit": "adet"
+    },
+    {
+      "id": "ing_021",
+      "name": "Pul biber",
+      "imgUrl": "img/ingredients/pulbiber.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_022",
+      "name": "Kimyon",
+      "imgUrl": "img/ingredients/kimyon.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_023",
+      "name": "Toz kırmızı biber",
+      "imgUrl": "img/ingredients/tozbiber.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_024",
+      "name": "Domates salçası",
+      "imgUrl": "img/ingredients/salca.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_025",
+      "name": "Sarımsak",
+      "imgUrl": "img/ingredients/sarimsak.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_026",
+      "name": "Kuru nane",
+      "imgUrl": "img/ingredients/kurunane.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_027",
+      "name": "Sıvı yağ",
+      "imgUrl": "img/ingredients/siviyag.png",
+      "unit": "ml"
+    },
+    {
+      "id": "ing_028",
+      "name": "Aşurelik buğday",
+      "imgUrl": "img/ingredients/asurelikbugday.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_029",
+      "name": "Kuzu But",
+      "imgUrl": "img/ingredients/kuzubut.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_030",
+      "name": "İnce Bulgur",
+      "imgUrl": "img/ingredients/bulgur.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_031",
+      "name": "Yumurta",
+      "imgUrl": "img/ingredients/yumurta.png",
+      "unit": "adet"
+    },
+    {
+      "id": "ing_032",
+      "name": "Madımak",
+      "imgUrl": "img/ingredients/madimak.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_033",
+      "name": "İrmik",
+      "imgUrl": "img/ingredients/irmik.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_034",
+      "name": "Bal",
+      "imgUrl": "img/ingredients/bal.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_035",
+      "name": "Pekmez",
+      "imgUrl": "img/ingredients/pekmez.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_036",
+      "name": "Kaymak",
+      "imgUrl": "img/ingredients/kaymak.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_037",
+      "name": "Labada Yaprağı",
+      "imgUrl": "img/ingredients/labada.png",
+      "unit": "demet"
+    },
+    {
+      "id": "ing_038",
+      "name": "Peskütan",
+      "imgUrl": "img/ingredients/peskutan.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_039",
+      "name": "Yeşil Mercimek",
+      "imgUrl": "img/ingredients/yesilmercimek.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_040",
+      "name": "Tahin",
+      "imgUrl": "img/ingredients/tahin.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_041",
+      "name": "Sirke",
+      "imgUrl": "img/ingredients/sirke.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_042",
+      "name": "Ceviz İçi",
+      "imgUrl": "img/ingredients/ceviz.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_043",
+      "name": "Limon Suyu",
+      "imgUrl": "img/ingredients/limonsuyu.png",
+      "unit": "ml"
+    },
+    {
+      "id": "ing_044",
+      "name": "Dondurma",
+      "imgUrl": "img/ingredients/dondurma.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_045",
+      "name": "Antep Fıstığı",
+      "imgUrl": "img/ingredients/antepfistigi.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_046",
+      "name": "Domates",
+      "imgUrl": "img/ingredients/domates.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_047",
+      "name": "Yeşil Soğan",
+      "imgUrl": "img/ingredients/yesilsogan.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_048",
+      "name": "Maydanoz",
+      "imgUrl": "img/ingredients/maydanoz.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_049",
+      "name": "Kabak Çiçeği",
+      "imgUrl": "img/ingredients/kabakcicegi.png",
+      "unit": "adet"
+    },
+    {
+      "id": "ing_050",
+      "name": "Dolmalık Fıstık",
+      "imgUrl": "img/ingredients/dolmafistigi.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_051",
+      "name": "Dereotu",
+      "imgUrl": "img/ingredients/dereotu.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_052",
+      "name": "Taze Nane",
+      "imgUrl": "img/ingredients/tazenane.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_053",
+      "name": "Midye",
+      "imgUrl": "img/ingredients/midye.png",
+      "unit": "adet"
+    },
+    {
+      "id": "ing_054",
+      "name": "Enginar",
+      "imgUrl": "img/ingredients/enginar.png",
+      "unit": "adet"
+    },
+    {
+      "id": "ing_055",
+      "name": "Havuç",
+      "imgUrl": "img/ingredients/havuc.png",
+      "unit": "adet"
+    },
+    {
+      "id": "ing_056",
+      "name": "Patates",
+      "imgUrl": "img/ingredients/patates.png",
+      "unit": "adet"
+    },
+    {
+      "id": "ing_057",
+      "name": "Bezelye",
+      "imgUrl": "img/ingredients/bezelye.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_058",
+      "name": "İç Bakla",
+      "imgUrl": "img/ingredients/icbakla.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_059",
+      "name": "Kuru İncir",
+      "imgUrl": "img/ingredients/kuruincir.png",
+      "unit": "adet"
+    },
+    {
+      "id": "ing_060",
+      "name": "Patlıcan",
+      "imgUrl": "img/ingredients/patlican.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_061",
+      "name": "Yeşil Biber",
+      "imgUrl": "img/ingredients/yesilbiber.png",
+      "unit": "adet"
+    },
+    {
+      "id": "ing_062",
+      "name": "Bal Kabağı",
+      "imgUrl": "img/ingredients/balkabagi.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_063",
+      "name": "Kuru Üzüm",
+      "imgUrl": "img/ingredients/kuruuzum.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_064",
+      "name": "Fındık",
+      "imgUrl": "img/ingredients/findik.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_065",
+      "name": "Kakao",
+      "imgUrl": "img/ingredients/kakao.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_066",
+      "name": "Vanilya",
+      "imgUrl": "img/ingredients/vanilya.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_067",
+      "name": "Balık",
+      "imgUrl": "img/ingredients/balik.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_068",
+      "name": "Biberiye",
+      "imgUrl": "img/ingredients/biberiye.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_069",
+      "name": "Defne Yaprağı",
+      "imgUrl": "img/ingredients/defneyapragi.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_070",
+      "name": "Deniz Börülcesi",
+      "imgUrl": "img/ingredients/denizborulcesi.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_071",
+      "name": "Taze Rezene",
+      "imgUrl": "img/ingredients/tazerezene.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_072",
+      "name": "Pazı",
+      "imgUrl": "img/ingredients/pazi.png",
+      "unit": "demet"
+    },
+    {
+      "id": "ing_073",
+      "name": "Haşlanmış Fasulye",
+      "imgUrl": "img/ingredients/haslanmisfasulye.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_074",
+      "name": "Sumak",
+      "imgUrl": "img/ingredients/sumak.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_075",
+      "name": "Karides",
+      "imgUrl": "img/ingredients/karides.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_076",
+      "name": "Kaşar Peyniri",
+      "imgUrl": "img/ingredients/kasarpeyniri.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_077",
+      "name": "Kapya Biber",
+      "imgUrl": "img/ingredients/kapyabiber.png",
+      "unit": "g"
+    }
+  ],
+  "recipes": [
+    {
+      "id": "rcp_101",
+      "name": "Kadayıflı Divriği Pilavı",
+      "authorId": "au_001",
+      "region": "İç Anadolu",
+      "city": "Sivas",
+      "prepMin": 35,
+      "localImgUrl": "img/recipes/kadayiflidivrigipilavi.png",
+      "ratings": {
+        "taste": 4.7,
+        "healthiness": 4.3,
+        "difficulty": 2.0,
+        "overall": 4.4
+      },
+      "instructions": "1. Eti 100 ml su ile (dana ise düdüklüde, kuzu ise doğrudan kavurarak) yumuşayana kadar pişirin. Tuz ve karabiber ekleyin.\n2. Pirinci 10 g tereyağıyla kavurun.\n3. 900 ml su, 3 g kesme şeker ve 5 g tuz ekleyip kısık ateşte pilavı pişirin, sonra dinlendirin.\n4. Pilava karabiber, kuş üzümü, badem ve eti ekleyip karıştırın.\n5. Kadayıfın yapışık kısımlarını ayırıp 60 g eritilmiş tereyağıyla harmanlayın.\n6. Derin bir kaseyi 20 g tereyağıyla yağlayın, isteğe bağlı olarak dibine badem dizin.\n7. Kadayıfla kaseyi kaplayın, pilavı ortasına koyun, üzerini tekrar kadayıfla kapatın.\n8. 200°C fırında alt rafta 25–30 dakika pişirin, kadayıf kızarana kadar bekleyin.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_001",
+          "quantity": 400
+        },
+        {
+          "ingredientId": "ing_004",
+          "quantity": 300
+        },
+        {
+          "ingredientId": "ing_013",
+          "quantity": 900
+        },
+        {
+          "ingredientId": "ing_012",
+          "quantity": 3
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 6
+        },
+        {
+          "ingredientId": "ing_006",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_010",
+          "quantity": 40
+        },
+        {
+          "ingredientId": "ing_007",
+          "quantity": 40
+        },
+        {
+          "ingredientId": "ing_002",
+          "quantity": 250
+        },
+        {
+          "ingredientId": "ing_003",
+          "quantity": 80
+        }
+      ]
+    },
+    {
+      "id": "rcp_102",
       "name": "Kayseri Yağ Mantısı",
       "authorId": "au_002",
       "region": "İç Anadolu",
@@ -342,278 +554,1201 @@
       },
       "instructions": "1. Soğanı küçük doğrayın. 400 g kıymayı baharatlarla karıştırıp yoğurarak iç harcı hazırlayın.\n2. Süt (220 ml), su (300 ml), yaş maya (42 g) ve şeker (5 g) yoğurma kabına alın, karıştırın ve 5 dk bekleyin.\n3. Yoğurt (150 g), sıvı yağ (100 ml), tuz (10 g), kabartma tozu (5 g) ekleyin. 700 g unla yumuşak, hafif yapışkan bir hamur yoğurun. 1 saat mayalandırın.\n4. Hamuru gazını alıp iki bezeye bölün. Birini ince açın.\n5. Hamurun yarısına çay bardağı ile iz çıkarıp kıymalı harç koyun. Diğer yarısını kapatın.\n6. Çay bardağıyla kesip şekil verin. Yağlı kağıda dizin.\n7. Kızgın yağda arkalı önlü kızartın.\n8. Sarımsaklı yoğurt ve salçalı sos (60 g salça, 30 ml sıvı yağ, 40 g tereyağı, 100 ml su) ile servis edin.",
       "ingredients": [
-        { "ingredientId": "ing_014", "quantity": 220 },
-        { "ingredientId": "ing_013", "quantity": 300 },
-        { "ingredientId": "ing_015", "quantity": 42 },
-        { "ingredientId": "ing_012", "quantity": 5 },
-        { "ingredientId": "ing_011", "quantity": 10 },
-        { "ingredientId": "ing_027", "quantity": 100 },
-        { "ingredientId": "ing_016", "quantity": 150 },
-        { "ingredientId": "ing_017", "quantity": 5 },
-        { "ingredientId": "ing_018", "quantity": 700 },
-        { "ingredientId": "ing_019", "quantity": 400 },
-        { "ingredientId": "ing_020", "quantity": 1 },
-        { "ingredientId": "ing_006", "quantity": 2 },
-        { "ingredientId": "ing_021", "quantity": 3 },
-        { "ingredientId": "ing_022", "quantity": 1 },
-        { "ingredientId": "ing_023", "quantity": 1 },
-        { "ingredientId": "ing_024", "quantity": 60 },
-        { "ingredientId": "ing_003", "quantity": 40 },
-        { "ingredientId": "ing_009", "quantity": 30 },
-        { "ingredientId": "ing_013", "quantity": 100 },
-        { "ingredientId": "ing_025", "quantity": 300 },
-        { "ingredientId": "ing_026", "quantity": 1 }
+        {
+          "ingredientId": "ing_014",
+          "quantity": 220
+        },
+        {
+          "ingredientId": "ing_013",
+          "quantity": 300
+        },
+        {
+          "ingredientId": "ing_015",
+          "quantity": 42
+        },
+        {
+          "ingredientId": "ing_012",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 10
+        },
+        {
+          "ingredientId": "ing_027",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_016",
+          "quantity": 150
+        },
+        {
+          "ingredientId": "ing_017",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_018",
+          "quantity": 700
+        },
+        {
+          "ingredientId": "ing_019",
+          "quantity": 400
+        },
+        {
+          "ingredientId": "ing_020",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_006",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_021",
+          "quantity": 3
+        },
+        {
+          "ingredientId": "ing_022",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_023",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_024",
+          "quantity": 60
+        },
+        {
+          "ingredientId": "ing_003",
+          "quantity": 40
+        },
+        {
+          "ingredientId": "ing_009",
+          "quantity": 30
+        },
+        {
+          "ingredientId": "ing_013",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_025",
+          "quantity": 300
+        },
+        {
+          "ingredientId": "ing_026",
+          "quantity": 1
+        }
       ]
+    },
+    {
+      "id": "rcp_103",
+      "name": "Kuzu Etli Keşkek",
+      "authorId": "au_001",
+      "region": "Ege",
+      "city": "Denizli",
+      "prepMin": 90,
+      "localImgUrl": "img/recipes/kuzuetlikeskek.png",
+      "ratings": {
+        "taste": 4.8,
+        "healthiness": 4.4,
+        "difficulty": 2.2,
+        "overall": 4.6
       },
-
-
+      "instructions": "1. 500 g kuzu eti ve 300 g aşurelik buğdayı güzelce yıkayın.\n2. Düdüklü tencereye alın, 1350 ml su ve 9 g tuz ekleyin.\n3. Tencere düdüklendikten sonra orta ateşte yaklaşık 1 saat 20 dakika pişirin.\n4. Tencerenin basıncı çıktıktan sonra kapağını açın.\n5. Etleri kemiklerinden ayırın.\n6. Tahta kaşıkla veya blenderla ezerek buğday ve eti karıştırın.\n7. Macun kıvamına gelene kadar karıştırmaya devam edin.\n8. Servis esnasında 40 g tereyağında 2 g toz biber yakıp üzerine gezdirin.",
+      "ingredients": [
         {
-          "id": "rcp_103",
-          "name": "Kuzu Etli Keşkek",
-          "authorId": "au_001",
-          "region": "Ege",
-          "city": "Denizli",
-          "prepMin": 90,
-          "localImgUrl": "img/recipes/kuzuetlikeskek.png",
-          "ratings": {
-            "taste": 4.8,
-            "healthiness": 4.4,
-            "difficulty": 2.2,
-            "overall": 4.6
-          },
-          "instructions": "1. 500 g kuzu eti ve 300 g aşurelik buğdayı güzelce yıkayın.\n2. Düdüklü tencereye alın, 1350 ml su ve 9 g tuz ekleyin.\n3. Tencere düdüklendikten sonra orta ateşte yaklaşık 1 saat 20 dakika pişirin.\n4. Tencerenin basıncı çıktıktan sonra kapağını açın.\n5. Etleri kemiklerinden ayırın.\n6. Tahta kaşıkla veya blenderla ezerek buğday ve eti karıştırın.\n7. Macun kıvamına gelene kadar karıştırmaya devam edin.\n8. Servis esnasında 40 g tereyağında 2 g toz biber yakıp üzerine gezdirin.",
-          "ingredients": [
-            { "ingredientId": "ing_029", "quantity": 500 },
-            { "ingredientId": "ing_013", "quantity": 1350 },
-            { "ingredientId": "ing_011", "quantity": 9 },
-            { "ingredientId": "ing_003", "quantity": 40 },
-            { "ingredientId": "ing_023", "quantity": 2 }
-          ]
-      },
-      
-      
+          "ingredientId": "ing_029",
+          "quantity": 500
+        },
         {
-        "id": "rcp_104",
-        "name": "Mirik Köfte",
-        "authorId": "au_001",
-        "region": "İç Anadolu",
-        "city": "Sivas",
-        "prepMin": 40,
-        "localImgUrl": "img/recipes/mirikkofte.png",
-        "ratings": {
-          "taste": 4.6,
-          "healthiness": 4.2,
-          "difficulty": 2.5,
-          "overall": 4.5
+          "ingredientId": "ing_013",
+          "quantity": 1350
         },
-        "instructions": "1. Bulgur bir kaba alınır ve sıcak su ile ıslatılır.\n2. Şişen bulgura un, yumurta, baharatlar eklenip yoğrulur.\n3. Harç 15 dakika dolapta dinlendirilir.\n4. Harçtan küçük parçalar koparılıp yuvarlanır.\n5. Un serpilmiş tepsiye dizilir.\n6. Kaynar suda köfteler haşlanır, suyun üstüne çıkınca süzülür.\n7. Ezilmiş sarımsak yoğurda katılır.\n8. Köftelerin üzerine sarımsaklı yoğurt gezdirilir.\n9. Sıvı yağda kızdırılmış pul biber üzerine dökülerek servis yapılır.",
-        "ingredients": [
-          { "ingredientId": "ing_030", "quantity": 320 },
-          { "ingredientId": "ing_018", "quantity": 120 },
-          { "ingredientId": "ing_013", "quantity": 240 },
-          { "ingredientId": "ing_031", "quantity": 1 },
-          { "ingredientId": "ing_011", "quantity": 5 },
-          { "ingredientId": "ing_022", "quantity": 5 },
-          { "ingredientId": "ing_021", "quantity": 5 },
-          { "ingredientId": "ing_006", "quantity": 1 },
-          { "ingredientId": "ing_016", "quantity": 200 },
-          { "ingredientId": "ing_025", "quantity": 20 },
-          { "ingredientId": "ing_027", "quantity": 20 }
-        ]
+        {
+          "ingredientId": "ing_011",
+          "quantity": 9
+        },
+        {
+          "ingredientId": "ing_003",
+          "quantity": 40
+        },
+        {
+          "ingredientId": "ing_023",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "rcp_104",
+      "name": "Mirik Köfte",
+      "authorId": "au_001",
+      "region": "İç Anadolu",
+      "city": "Sivas",
+      "prepMin": 40,
+      "localImgUrl": "img/recipes/mirikkofte.png",
+      "ratings": {
+        "taste": 4.6,
+        "healthiness": 4.2,
+        "difficulty": 2.5,
+        "overall": 4.5
       },
-
-
-      {
-        "id": "rcp_105",
-        "name": "Madımak Yemeği",
-        "authorId": "au_002",
-        "region": "İç Anadolu",
-        "city": "Sivas",
-        "prepMin": 45,
-        "localImgUrl": "img/recipes/madimakyemegi.png",
-        "ratings": {
-          "taste": 4.5,
-          "healthiness": 4.7,
-          "difficulty": 2.0,
-          "overall": 4.6
+      "instructions": "1. Bulgur bir kaba alınır ve sıcak su ile ıslatılır.\n2. Şişen bulgura un, yumurta, baharatlar eklenip yoğrulur.\n3. Harç 15 dakika dolapta dinlendirilir.\n4. Harçtan küçük parçalar koparılıp yuvarlanır.\n5. Un serpilmiş tepsiye dizilir.\n6. Kaynar suda köfteler haşlanır, suyun üstüne çıkınca süzülür.\n7. Ezilmiş sarımsak yoğurda katılır.\n8. Köftelerin üzerine sarımsaklı yoğurt gezdirilir.\n9. Sıvı yağda kızdırılmış pul biber üzerine dökülerek servis yapılır.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_030",
+          "quantity": 320
         },
-        "instructions": "1. Madımaklar ayıklanır, yıkanır ve ince ince doğranır.\n2. Sıvı yağda doğranmış kuru soğan ve sarımsak pembeleşene kadar kavrulur.\n3. Salça, tuz ve pul biber eklenip karıştırılır.\n4. Madımaklar eklenip 10 dakika kavrulur.\n5. Ardından bulgur eklenir, sıcak su ilave edilerek pişirilir.\n6. Servis ederken üzerine sarımsaklı yoğurt gezdirilir.",
-        "ingredients": [
-          { "ingredientId": "ing_032", "quantity": 500 },
-          { "ingredientId": "ing_027", "quantity": 40 },
-          { "ingredientId": "ing_020", "quantity": 2 },
-          { "ingredientId": "ing_025", "quantity": 10 },
-          { "ingredientId": "ing_024", "quantity": 20 },
-          { "ingredientId": "ing_030", "quantity": 45 },
-          { "ingredientId": "ing_011", "quantity": 5 },
-          { "ingredientId": "ing_021", "quantity": 2 },
-          { "ingredientId": "ing_013", "quantity": 300 },
-          { "ingredientId": "ing_016", "quantity": 200 }
-        ]
+        {
+          "ingredientId": "ing_018",
+          "quantity": 120
+        },
+        {
+          "ingredientId": "ing_013",
+          "quantity": 240
+        },
+        {
+          "ingredientId": "ing_031",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_022",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_021",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_006",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_016",
+          "quantity": 200
+        },
+        {
+          "ingredientId": "ing_025",
+          "quantity": 20
+        },
+        {
+          "ingredientId": "ing_027",
+          "quantity": 20
+        }
+      ]
+    },
+    {
+      "id": "rcp_105",
+      "name": "Madımak Yemeği",
+      "authorId": "au_002",
+      "region": "İç Anadolu",
+      "city": "Sivas",
+      "prepMin": 45,
+      "localImgUrl": "img/recipes/madimakyemegi.png",
+      "ratings": {
+        "taste": 4.5,
+        "healthiness": 4.7,
+        "difficulty": 2.0,
+        "overall": 4.6
       },
-
-
-      {
-        "id": "rcp_106",
-        "name": "Herle Tatlısı",
-        "authorId": "au_002",
-        "region": "İç Anadolu",
-        "city": "Sivas",
-        "prepMin": 30,
-        "localImgUrl": "img/recipes/herletatlisi.png",
-        "ratings": {
-          "taste": 4.8,
-          "healthiness": 4.0,
-          "difficulty": 2.0,
-          "overall": 4.5
+      "instructions": "1. Madımaklar ayıklanır, yıkanır ve ince ince doğranır.\n2. Sıvı yağda doğranmış kuru soğan ve sarımsak pembeleşene kadar kavrulur.\n3. Salça, tuz ve pul biber eklenip karıştırılır.\n4. Madımaklar eklenip 10 dakika kavrulur.\n5. Ardından bulgur eklenir, sıcak su ilave edilerek pişirilir.\n6. Servis ederken üzerine sarımsaklı yoğurt gezdirilir.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_032",
+          "quantity": 500
         },
-        "instructions": "1. Tavaya un eklenerek kokusu çıkana kadar kavrulur.\n2. İrmik eklenip 2-3 dakika daha kavrulur.\n3. Ayrı bir kapta bal, süt ve pekmez çırpılır.\n4. Karışım kavrulmuş un-irmiğe çırparak eklenir.\n5. Badem eklenerek kıvam alana kadar pişirilir.\n6. Üzerine kaymak eklenerek servis yapılır.",
-        "ingredients": [
-          { "ingredientId": "ing_018", "quantity": 60 },
-          { "ingredientId": "ing_033", "quantity": 45 },
-          { "ingredientId": "ing_014", "quantity": 300 },
-          { "ingredientId": "ing_034", "quantity": 30 },
-          { "ingredientId": "ing_007", "quantity": 25 },
-          { "ingredientId": "ing_003", "quantity": 50 },
-          { "ingredientId": "ing_035", "quantity": 70 },
-          { "ingredientId": "ing_036", "quantity": 40 }
-        ]
+        {
+          "ingredientId": "ing_027",
+          "quantity": 40
+        },
+        {
+          "ingredientId": "ing_020",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_025",
+          "quantity": 10
+        },
+        {
+          "ingredientId": "ing_024",
+          "quantity": 20
+        },
+        {
+          "ingredientId": "ing_030",
+          "quantity": 45
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_021",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_013",
+          "quantity": 300
+        },
+        {
+          "ingredientId": "ing_016",
+          "quantity": 200
+        }
+      ]
+    },
+    {
+      "id": "rcp_106",
+      "name": "Herle Tatlısı",
+      "authorId": "au_002",
+      "region": "İç Anadolu",
+      "city": "Sivas",
+      "prepMin": 30,
+      "localImgUrl": "img/recipes/herletatlisi.png",
+      "ratings": {
+        "taste": 4.8,
+        "healthiness": 4.0,
+        "difficulty": 2.0,
+        "overall": 4.5
       },
-
-
-      {
-        "id": "rcp_107",
-        "name": "İlibada Dolması",
-        "authorId": "au_001",
-        "region": "İç Anadolu",
-        "city": "Afyon",
-        "prepMin": 60,
-        "localImgUrl": "img/recipes/ilibadadolmasi.png",
-        "ratings": {
-          "taste": 4.7,
-          "healthiness": 4.6,
-          "difficulty": 2.8,
-          "overall": 4.6
+      "instructions": "1. Tavaya un eklenerek kokusu çıkana kadar kavrulur.\n2. İrmik eklenip 2-3 dakika daha kavrulur.\n3. Ayrı bir kapta bal, süt ve pekmez çırpılır.\n4. Karışım kavrulmuş un-irmiğe çırparak eklenir.\n5. Badem eklenerek kıvam alana kadar pişirilir.\n6. Üzerine kaymak eklenerek servis yapılır.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_018",
+          "quantity": 60
         },
-        "instructions": "1. Tencerede sıvı yağ ile doğranmış soğan kavrulur.\n2. Un eklenip kokusu çıkana kadar kavrulur.\n3. Bulgur ilave edilip karabiber, tuz, kırmızı biber eklenerek az su ile pişirilir.\n4. Labada yaprakları haşlanır.\n5. Yapraklara iç harç koyulup muska şeklinde sarılır.\n6. Tencereye dizilip su eklenerek pişirilir.\n7. Küçük tavada yağda salça, nane, kırmızı biber kavrularak sos yapılır.\n8. Pişen dolmaların üzerine bu sos ve sarımsaklı yoğurt dökülerek servis yapılır.",
-        "ingredients": [
-          { "ingredientId": "ing_037", "quantity": 3 },
-          { "ingredientId": "ing_030", "quantity": 100 },         
-          { "ingredientId": "ing_018", "quantity": 20 },
-          { "ingredientId": "ing_020", "quantity": 1 },
-          { "ingredientId": "ing_024", "quantity": 20 },
-          { "ingredientId": "ing_025", "quantity": 10 },
-          { "ingredientId": "ing_027", "quantity": 100 },
-          { "ingredientId": "ing_016", "quantity": 30 },
-          { "ingredientId": "ing_026", "quantity": 5 },
-          { "ingredientId": "ing_023", "quantity": 5 },
-          { "ingredientId": "ing_011", "quantity": 5 },
-          { "ingredientId": "ing_006", "quantity": 2 }
-        ]
+        {
+          "ingredientId": "ing_033",
+          "quantity": 45
+        },
+        {
+          "ingredientId": "ing_014",
+          "quantity": 300
+        },
+        {
+          "ingredientId": "ing_034",
+          "quantity": 30
+        },
+        {
+          "ingredientId": "ing_007",
+          "quantity": 25
+        },
+        {
+          "ingredientId": "ing_003",
+          "quantity": 50
+        },
+        {
+          "ingredientId": "ing_035",
+          "quantity": 70
+        },
+        {
+          "ingredientId": "ing_036",
+          "quantity": 40
+        }
+      ]
+    },
+    {
+      "id": "rcp_107",
+      "name": "İlibada Dolması",
+      "authorId": "au_001",
+      "region": "Ege",
+      "city": "Afyon",
+      "prepMin": 60,
+      "localImgUrl": "img/recipes/ilibadadolmasi.png",
+      "ratings": {
+        "taste": 4.7,
+        "healthiness": 4.6,
+        "difficulty": 2.8,
+        "overall": 4.6
       },
-
-
-      {
-        "id": "rcp_108",
-        "name": "Peskütan Çorbası",
-        "authorId": "au_002",
-        "region": "İç Anadolu",
-        "city": "Sivas",
-        "prepMin": 30,
-        "localImgUrl": "img/recipes/peskutancorbasi.png",
-        "ratings": {
-          "taste": 4.7,
-          "healthiness": 4.8,
-          "difficulty": 3.0,
-          "overall": 4.7
+      "instructions": "1. Tencerede sıvı yağ ile doğranmış soğan kavrulur.\n2. Un eklenip kokusu çıkana kadar kavrulur.\n3. Bulgur ilave edilip karabiber, tuz, kırmızı biber eklenerek az su ile pişirilir.\n4. Labada yaprakları haşlanır.\n5. Yapraklara iç harç koyulup muska şeklinde sarılır.\n6. Tencereye dizilip su eklenerek pişirilir.\n7. Küçük tavada yağda salça, nane, kırmızı biber kavrularak sos yapılır.\n8. Pişen dolmaların üzerine bu sos ve sarımsaklı yoğurt dökülerek servis yapılır.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_037",
+          "quantity": 3
         },
-        "instructions": "1. Buğday ve mercimeği bir gece önceden ıslatın ve ertesi gün haşlayın.\n2. Ayrı bir tencerede un, yumurta sarısı ve az suyu çırpın. Ardından peskütan ve 1.5 litre suyu ekleyin, çırparak karıştırın.\n3. Karışımı sürekli karıştırarak ocağa alın. Isınınca haşlanmış mercimek ve buğdayı ekleyin.\n4. Sos için, tereyağında doğranmış kuru soğanı kavurun. Soğanlar yumuşayınca kuru naneyi ekleyin.\n5. Sosu yavaşça çorbaya ekleyin. Piştikten sonra karıştırıp servis edin.",
-        "ingredients": [
-          { "ingredientId": "ing_018", "quantity": 10 },
-          { "ingredientId": "ing_031", "quantity": 1 },
-          { "ingredientId": "ing_038", "quantity": 500 },
-          { "ingredientId": "ing_028", "quantity": 100 },
-          { "ingredientId": "ing_039", "quantity": 100 },
-          { "ingredientId": "ing_013", "quantity": 1500 },
-          { "ingredientId": "ing_003", "quantity": 20 },
-          { "ingredientId": "ing_020", "quantity": 1 },
-          { "ingredientId": "ing_026", "quantity": 5 }
-        ]
+        {
+          "ingredientId": "ing_030",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_018",
+          "quantity": 20
+        },
+        {
+          "ingredientId": "ing_020",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_024",
+          "quantity": 20
+        },
+        {
+          "ingredientId": "ing_025",
+          "quantity": 10
+        },
+        {
+          "ingredientId": "ing_027",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_016",
+          "quantity": 30
+        },
+        {
+          "ingredientId": "ing_026",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_023",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_006",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "rcp_108",
+      "name": "Peskütan Çorbası",
+      "authorId": "au_002",
+      "region": "İç Anadolu",
+      "city": "Sivas",
+      "prepMin": 30,
+      "localImgUrl": "img/recipes/peskutancorbasi.png",
+      "ratings": {
+        "taste": 4.7,
+        "healthiness": 4.8,
+        "difficulty": 3.0,
+        "overall": 4.7
       },
-
-
-      {
-        "id": "rcp_109",
-        "name": "Nevzine Tatlısı",
-        "authorId": "au_002",
-        "region": "İç Anadolu",
-        "city": "Kayseri",
-        "prepMin": 90,
-        "localImgUrl": "img/recipes/nevzinetatlisi.png",
-        "ratings": {
-          "taste": 4.9,
-          "healthiness": 4.1,
-          "difficulty": 3.2,
-          "overall": 4.7
+      "instructions": "1. Buğday ve mercimeği bir gece önceden ıslatın ve ertesi gün haşlayın.\n2. Ayrı bir tencerede un, yumurta sarısı ve az suyu çırpın. Ardından peskütan ve 1.5 litre suyu ekleyin, çırparak karıştırın.\n3. Karışımı sürekli karıştırarak ocağa alın. Isınınca haşlanmış mercimek ve buğdayı ekleyin.\n4. Sos için, tereyağında doğranmış kuru soğanı kavurun. Soğanlar yumuşayınca kuru naneyi ekleyin.\n5. Sosu yavaşça çorbaya ekleyin. Piştikten sonra karıştırıp servis edin.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_018",
+          "quantity": 10
         },
-        "instructions": "1. Şerbet için şeker ve su kaynatılır, limon suyu eklenip ocaktan alınır ve soğumaya bırakılır.\n2. Hamur için tereyağı, zeytinyağı, tahin, yoğurt, kabartma tozu, sirke yoğurma kabına alınır ve karıştırılır.\n3. Un ve ceviz eklenip yoğrularak hafif sert kıvamlı hamur elde edilir.\n4. Hamur tepsiye yayılır ve 200°C fırında üstü kızarana kadar pişirilir.\n5. Şerbete pekmez eklenip karıştırılır ve sıcak tatlının üzerine dökülür.\n6. Serviste dondurma ve Antep fıstığı ile süslenir.",
-        "ingredients": [
-          { "ingredientId": "ing_003", "quantity": 125 },
-          { "ingredientId": "ing_009", "quantity": 100 },
-          { "ingredientId": "ing_040", "quantity": 60 },
-          { "ingredientId": "ing_016", "quantity": 60 },
-          { "ingredientId": "ing_017", "quantity": 10 },
-          { "ingredientId": "ing_041", "quantity": 5 },
-          { "ingredientId": "ing_018", "quantity": 400 },
-          { "ingredientId": "ing_042", "quantity": 100 },
-          { "ingredientId": "ing_012", "quantity": 300 },
-          { "ingredientId": "ing_013", "quantity": 500 },
-          { "ingredientId": "ing_043", "quantity": 2 },
-          { "ingredientId": "ing_035", "quantity": 100 },
-          { "ingredientId": "ing_044", "quantity": 80 },
-          { "ingredientId": "ing_045", "quantity": 20 }
-        ]
+        {
+          "ingredientId": "ing_031",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_038",
+          "quantity": 500
+        },
+        {
+          "ingredientId": "ing_028",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_039",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_013",
+          "quantity": 1500
+        },
+        {
+          "ingredientId": "ing_003",
+          "quantity": 20
+        },
+        {
+          "ingredientId": "ing_020",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_026",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "rcp_109",
+      "name": "Nevzine Tatlısı",
+      "authorId": "au_002",
+      "region": "İç Anadolu",
+      "city": "Kayseri",
+      "prepMin": 90,
+      "localImgUrl": "img/recipes/nevzinetatlisi.png",
+      "ratings": {
+        "taste": 4.9,
+        "healthiness": 4.1,
+        "difficulty": 3.2,
+        "overall": 4.7
       },
-
-
-      {
-        "id": "rcp_110",
-        "name": "Batırık",
-        "authorId": "au_001",
-        "region": "İç Anadolu",
-        "city": "Karaman",
-        "prepMin": 45,
-        "localImgUrl": "img/recipes/batirik.png",
-        "ratings": {
-          "taste": 4.6,
-          "healthiness": 4.5,
-          "difficulty": 2.2,
-          "overall": 4.6
+      "instructions": "1. Şerbet için şeker ve su kaynatılır, limon suyu eklenip ocaktan alınır ve soğumaya bırakılır.\n2. Hamur için tereyağı, zeytinyağı, tahin, yoğurt, kabartma tozu, sirke yoğurma kabına alınır ve karıştırılır.\n3. Un ve ceviz eklenip yoğrularak hafif sert kıvamlı hamur elde edilir.\n4. Hamur tepsiye yayılır ve 200°C fırında üstü kızarana kadar pişirilir.\n5. Şerbete pekmez eklenip karıştırılır ve sıcak tatlının üzerine dökülür.\n6. Serviste dondurma ve Antep fıstığı ile süslenir.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_003",
+          "quantity": 125
         },
-        "instructions": "1. Bulguru geniş bir kapta ılık suyla ıslatıp üzerini kapatarak 25 dakika bekletin.\n2. Soğan, domates, yeşil soğan ve maydanozu doğrayın.\n3. Bulgura doğranmış soğan, domates, salça, kırmızı biber ve kimyonu ekleyip yoğurun.\n4. Tahini ekleyip tekrar yoğurun.\n5. Yeşil soğan, maydanoz, tuz ve limon suyunu da ekleyip karışımı tamamlayın.\n6. Elinizle sıkarak şekil verin ve marul yaprakları ile servis edin.",
-        "ingredients": [
-          { "ingredientId": "ing_030", "quantity": 500 },
-          { "ingredientId": "ing_013", "quantity": 100 },
-          { "ingredientId": "ing_040", "quantity": 70 },
-          { "ingredientId": "ing_020", "quantity": 1 },
-          { "ingredientId": "ing_046", "quantity": 250 },
-          { "ingredientId": "ing_024", "quantity": 40 },
-          { "ingredientId": "ing_047", "quantity": 50 },
-          { "ingredientId": "ing_048", "quantity": 25 },
-          { "ingredientId": "ing_043", "quantity": 10 },
-          { "ingredientId": "ing_011", "quantity": 5 },
-          { "ingredientId": "ing_023", "quantity": 3 },
-          { "ingredientId": "ing_022", "quantity": 2 }
-        ]
-      }
-      
-      
-      
-      
-      
-      
-      
-        
-    ]
-  }
-  
+        {
+          "ingredientId": "ing_009",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_040",
+          "quantity": 60
+        },
+        {
+          "ingredientId": "ing_016",
+          "quantity": 60
+        },
+        {
+          "ingredientId": "ing_017",
+          "quantity": 10
+        },
+        {
+          "ingredientId": "ing_041",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_018",
+          "quantity": 400
+        },
+        {
+          "ingredientId": "ing_042",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_012",
+          "quantity": 300
+        },
+        {
+          "ingredientId": "ing_013",
+          "quantity": 500
+        },
+        {
+          "ingredientId": "ing_043",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_035",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_044",
+          "quantity": 80
+        },
+        {
+          "ingredientId": "ing_045",
+          "quantity": 20
+        }
+      ]
+    },
+    {
+      "id": "rcp_110",
+      "name": "Batırık",
+      "authorId": "au_001",
+      "region": "İç Anadolu",
+      "city": "Karaman",
+      "prepMin": 45,
+      "localImgUrl": "img/recipes/batirik.png",
+      "ratings": {
+        "taste": 4.6,
+        "healthiness": 4.5,
+        "difficulty": 2.2,
+        "overall": 4.6
+      },
+      "instructions": "1. Bulguru geniş bir kapta ılık suyla ıslatıp üzerini kapatarak 25 dakika bekletin.\n2. Soğan, domates, yeşil soğan ve maydanozu doğrayın.\n3. Bulgura doğranmış soğan, domates, salça, kırmızı biber ve kimyonu ekleyip yoğurun.\n4. Tahini ekleyip tekrar yoğurun.\n5. Yeşil soğan, maydanoz, tuz ve limon suyunu da ekleyip karışımı tamamlayın.\n6. Elinizle sıkarak şekil verin ve marul yaprakları ile servis edin.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_030",
+          "quantity": 500
+        },
+        {
+          "ingredientId": "ing_013",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_040",
+          "quantity": 70
+        },
+        {
+          "ingredientId": "ing_020",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_046",
+          "quantity": 250
+        },
+        {
+          "ingredientId": "ing_024",
+          "quantity": 40
+        },
+        {
+          "ingredientId": "ing_047",
+          "quantity": 50
+        },
+        {
+          "ingredientId": "ing_048",
+          "quantity": 25
+        },
+        {
+          "ingredientId": "ing_043",
+          "quantity": 10
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_023",
+          "quantity": 3
+        },
+        {
+          "ingredientId": "ing_022",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "rcp_111",
+      "name": "Zeytinyağlı Kabak Çiçeği Dolması",
+      "authorId": "au_002",
+      "region": "Ege",
+      "city": "İzmir",
+      "prepMin": 60,
+      "localImgUrl": "img/recipes/kabakcicegidolmasi.png",
+      "ratings": {
+        "taste": 4.8,
+        "healthiness": 4.7,
+        "difficulty": 3.0,
+        "overall": 4.7
+      },
+      "instructions": "1. Kabak çiçeklerinin iç kısımlarını nazikçe çıkarın, yıkayıp süzün.\n2. Soğanı doğrayın, zeytinyağının yarısında kuş üzümü ve dolmalık fıstıkla kavurun.\n3. Yıkanmış pirinci ekleyin. Baharatlar, limon suyu, şeker ve rendelenmiş domatesi ilave edin.\n4. İnce kıyılmış nane ve dereotunu ekleyip kısık ateşte iç harcı pişirin.\n5. Dinlendirdikten sonra her çiçeğe iç koyun ve ağızlarını kapatın.\n6. Tencereye dik dizin, kalan zeytinyağını ve suyu ekleyip kısık ateşte 20 dakika pişirin.\n7. Suyunu süzüp kapağı yarı açık bırakıp soğumaya bırakın. Servis edin.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_049",
+          "quantity": 40
+        },
+        {
+          "ingredientId": "ing_004",
+          "quantity": 270
+        },
+        {
+          "ingredientId": "ing_020",
+          "quantity": 3
+        },
+        {
+          "ingredientId": "ing_046",
+          "quantity": 300
+        },
+        {
+          "ingredientId": "ing_009",
+          "quantity": 150
+        },
+        {
+          "ingredientId": "ing_010",
+          "quantity": 20
+        },
+        {
+          "ingredientId": "ing_050",
+          "quantity": 20
+        },
+        {
+          "ingredientId": "ing_051",
+          "quantity": 10
+        },
+        {
+          "ingredientId": "ing_052",
+          "quantity": 10
+        },
+        {
+          "ingredientId": "ing_012",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_043",
+          "quantity": 10
+        },
+        {
+          "ingredientId": "ing_023",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_006",
+          "quantity": 3
+        },
+        {
+          "ingredientId": "ing_021",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_022",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "rcp_112",
+      "name": "Midye Dolma",
+      "authorId": "au_001",
+      "region": "Ege",
+      "city": "İzmir",
+      "prepMin": 50,
+      "localImgUrl": "img/recipes/midyedolma.png",
+      "ratings": {
+        "taste": 4.9,
+        "healthiness": 4.3,
+        "difficulty": 3.4,
+        "overall": 4.7
+      },
+      "instructions": "1. Midyeleri iyice temizleyin, kaynar suda hafif aralanana kadar bekletip hemen süzün. İç zarları ve sakallarını çıkarıp soğuk suda yıkayın.\n2. Soğanı küçük doğrayın ve sıvı yağda kavurun. Pirinci ekleyip karıştırın. Yarım su bardağı su, tuz, yenibahar ve karabiber ekleyin. Az pişirip ocaktan alın.\n3. Her midyeye yarım yemek kaşığı pilavdan koyup kapatın.\n4. Midyeleri tencereye sıkı şekilde dizin. Üzerine sıvı yağ ve su gezdirin.\n5. Kısık ateşte 20 dakika pişirin.\n6. Ilıyınca dolaba kaldırın. Soğuduktan sonra limon sıkarak servis edin.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_053",
+          "quantity": 25
+        },
+        {
+          "ingredientId": "ing_020",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_004",
+          "quantity": 160
+        },
+        {
+          "ingredientId": "ing_013",
+          "quantity": 120
+        },
+        {
+          "ingredientId": "ing_027",
+          "quantity": 120
+        },
+        {
+          "ingredientId": "ing_005",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_006",
+          "quantity": 4
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_043",
+          "quantity": 50
+        }
+      ]
+    },
+    {
+      "id": "rcp_113",
+      "name": "Zeytinyağlı Enginar",
+      "authorId": "au_002",
+      "region": "Ege",
+      "city": "İzmir",
+      "prepMin": 45,
+      "localImgUrl": "img/recipes/zeytinyenginar.png",
+      "ratings": {
+        "taste": 4.8,
+        "healthiness": 4.9,
+        "difficulty": 2.5,
+        "overall": 4.7
+      },
+      "instructions": "1. Havuç ve patatesi küp küp doğrayın, üzerini geçecek kadar suda 10 dakika haşlayın.\n2. Bezelyeleri ayrı tencerede haşlayıp süzün.\n3. Soğanı doğrayıp yarım çay bardağı zeytinyağında kavurun.\n4. Haşlanmış sebzeleri ve bezelyeyi ekleyip 1-2 dakika karıştırarak iç harcı hazırlayın.\n5. Enginarları limonla ovarak tencereye dizin.\n6. İç harcı enginarların ortasına ve üzerine doldurun.\n7. Üzerine kalan zeytinyağı, limon suyu, şeker, tuz ve suyu ekleyin.\n8. Tencere kapağını kapatıp kaynadıktan sonra kısık ateşte 20–25 dakika pişirin.\n9. Ocaktan alıp soğutun, dereotu ile süsleyerek servis edin.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_054",
+          "quantity": 6
+        },
+        {
+          "ingredientId": "ing_020",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_013",
+          "quantity": 200
+        },
+        {
+          "ingredientId": "ing_009",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_012",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 7
+        },
+        {
+          "ingredientId": "ing_043",
+          "quantity": 60
+        },
+        {
+          "ingredientId": "ing_055",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_056",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_057",
+          "quantity": 100
+        }
+      ]
+    },
+    {
+      "id": "rcp_114",
+      "name": "Fava",
+      "authorId": "au_001",
+      "region": "Ege",
+      "city": "İzmir",
+      "prepMin": 60,
+      "localImgUrl": "img/recipes/fava.png",
+      "ratings": {
+        "taste": 4.5,
+        "healthiness": 4.8,
+        "difficulty": 2.3,
+        "overall": 4.4
+      },
+      "instructions": "1. Kuru iç baklaları bir gece önceden soğuk suda bekletin.\n2. Ertesi gün baklaları süzüp düdüklü tencereye alın, sıcak su ekleyip 15 dakika kaynatın ve köpüklü suyu dökün.\n3. Yeniden sıcak su ekleyin (bakla seviyesinin 1 parmak altında). Soğanı dörde bölüp ekleyin.\n4. Tuz ve şekeri ilave edip düdüklü kapağını kapatın, 20 dakika pişirin.\n5. Hafif ılınınca blender ile pürüzsüz hale getirin, zeytinyağını ekleyip karıştırın.\n6. Karışımı cam kaba döküp oda sıcaklığında soğutun.\n7. 7-8 saat buzdolabında bekletin.\n8. Serviste üzerine zeytinyağı gezdirin, isteğe göre dereotu, soğan veya sardalya ekleyerek servis edin.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_058",
+          "quantity": 360
+        },
+        {
+          "ingredientId": "ing_020",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_012",
+          "quantity": 10
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_009",
+          "quantity": 100
+        }
+      ]
+    },
+    {
+      "id": "rcp_115",
+      "name": "İncir Uyutması",
+      "authorId": "au_002",
+      "region": "Ege",
+      "city": "Aydın",
+      "prepMin": 180,
+      "localImgUrl": "img/recipes/inciruyutmasi.png",
+      "ratings": {
+        "taste": 4.6,
+        "healthiness": 4.7,
+        "difficulty": 1.8,
+        "overall": 4.5
+      },
+      "instructions": "1. Kuru incirleri sıcak suya alıp 1 saat yumuşamaya bırakın.\n2. Yumuşayan incirleri minik küpler halinde doğrayın.\n3. Sütü tencereye alıp yoğurt mayalama sıcaklığından biraz daha fazla ısıtın ve ocaktan alın.\n4. Birkaç kepçe sıcak sütü incirlerin üzerine dökün ve ezerek karıştırın veya hafifçe blenderdan geçirin.\n5. Karışımı tencereye aktarın, bir kez karıştırıp kuplara pay edin.\n6. Üzerlerini kapatıp bezle sararak oda sıcaklığında 2 saat uyutun.\n7. Daha sonra üzerini açıp buzdolabında 2-3 saat soğutun.\n8. Soğuduktan sonra servis edin.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_014",
+          "quantity": 500
+        },
+        {
+          "ingredientId": "ing_059",
+          "quantity": 8
+        },
+        {
+          "ingredientId": "ing_013",
+          "quantity": 200
+        }
+      ]
+    },
+    {
+      "id": "rcp_116",
+      "name": "Patlıcan Çığırtma",
+      "authorId": "au_001",
+      "region": "Ege",
+      "city": "İzmir",
+      "prepMin": 40,
+      "localImgUrl": "img/recipes/patlicancigirtma.png",
+      "ratings": {
+        "taste": 4.7,
+        "healthiness": 4.2,
+        "difficulty": 2.0,
+        "overall": 4.5
+      },
+      "instructions": "1. Patlıcanları alacalı soyun, uzun doğrayın ve tuzlu suda bekletin.\n2. Biberlerin sap ve çekirdeklerini temizleyin.\n3. Patlıcan ve biberleri kurulayıp zeytinyağında kızartın.\n4. Domatesleri soyup küp doğrayın. Sarımsakları ayıklayın.\n5. Kızartma sonrası tavadaki fazla yağı süzün, birazını bırakın.\n6. Tava içine patlıcan ve biberleri dizin. Üzerine domates, sarımsak ve tuz ekleyin.\n7. Üzerine kapak kapatıp domatesler eriyene kadar pişirin.\n8. Sıcak ya da soğuk servis edin.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_060",
+          "quantity": 1000
+        },
+        {
+          "ingredientId": "ing_046",
+          "quantity": 600
+        },
+        {
+          "ingredientId": "ing_061",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_025",
+          "quantity": 10
+        },
+        {
+          "ingredientId": "ing_009",
+          "quantity": 200
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 5
+        }
+      ]
+    },
+    {
+      "id": "rcp_117",
+      "name": "Bal Kabağı Sinkonta",
+      "authorId": "au_002",
+      "region": "Ege",
+      "city": "İzmir",
+      "prepMin": 45,
+      "localImgUrl": "img/recipes/balkabagisinkonta.png",
+      "ratings": {
+        "taste": 4.5,
+        "healthiness": 4.6,
+        "difficulty": 2.1,
+        "overall": 4.4
+      },
+      "instructions": "1. Fırın kabının tabanına doğradığınız soğanların yarısını yayın.\n2. Üzerine bal kabağını ve kalan soğanları yayın, un serpin.\n3. Zeytinyağı ve tuzu çatalla çırparak karıştırın, üzerine dökün.\n4. 180 derece önceden ısıtılmış fırında 35-40 dakika pişirin.\n5. Fırının içinde soğumaya bırakın.\n6. Yoğurt ile servis edin.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_062",
+          "quantity": 1000
+        },
+        {
+          "ingredientId": "ing_020",
+          "quantity": 3
+        },
+        {
+          "ingredientId": "ing_018",
+          "quantity": 10
+        },
+        {
+          "ingredientId": "ing_009",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_021",
+          "quantity": 20
+        }
+      ]
+    },
+    {
+      "id": "rcp_118",
+      "name": "Pastiç",
+      "authorId": "au_001",
+      "region": "Marmara",
+      "city": "İstanbul",
+      "prepMin": 120,
+      "localImgUrl": "img/recipes/pastic.png",
+      "ratings": {
+        "taste": 4.7,
+        "healthiness": 4.0,
+        "difficulty": 3.2,
+        "overall": 4.5
+      },
+      "instructions": "1. Un, toz şeker, tuz ve mayayı karıştırın. Ortasına süt ve sıvıyağı ekleyip karıştırın.\n2. Yavaşça su ilave ederek hamuru yoğurun ve mayalanmaya bırakın.\n3. İç harç için yumurta ve şekeri çırpın. Un, kakao, kabartma tozu ve vanilya ekleyin.\n4. Harcı tepsiye dökün ve 150 derecede 25 dakika pişirin.\n5. Soğuyan keki ufalayın, tarçın, kuru üzüm, fındık ve süt ekleyip yoğurun.\n6. Hamuru iki parçaya ayırın, açıp iç harcı yayın. Rulo yapıp kesin.\n7. Üzerine yumurta sarısı sürüp susam serpin. 170 derecede pişirin.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_018",
+          "quantity": 360
+        },
+        {
+          "ingredientId": "ing_015",
+          "quantity": 10
+        },
+        {
+          "ingredientId": "ing_014",
+          "quantity": 375
+        },
+        {
+          "ingredientId": "ing_027",
+          "quantity": 75
+        },
+        {
+          "ingredientId": "ing_012",
+          "quantity": 180
+        },
+        {
+          "ingredientId": "ing_013",
+          "quantity": 240
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_031",
+          "quantity": 4
+        },
+        {
+          "ingredientId": "ing_065",
+          "quantity": 30
+        },
+        {
+          "ingredientId": "ing_017",
+          "quantity": 10
+        },
+        {
+          "ingredientId": "ing_066",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_008",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_064",
+          "quantity": 60
+        },
+        {
+          "ingredientId": "ing_063",
+          "quantity": 120
+        }
+      ]
+    },
+    {
+      "id": "rcp_119",
+      "name": "Deniz Börülceli Balık Çorbası",
+      "authorId": "au_002",
+      "region": "Ege",
+      "city": "İzmir",
+      "prepMin": 60,
+      "localImgUrl": "img/recipes/denizborulcelibalikcorbasi.png",
+      "ratings": {
+        "taste": 4.7,
+        "healthiness": 4.8,
+        "difficulty": 2.7,
+        "overall": 4.6
+      },
+      "instructions": "1. Balıkları temizleyip yıkayın, süzdürün.\n2. Maydanoz yapraklarını, biberiye ve defne yaprağını tencereye balıklarla birlikte koyun.\n3. Balıklar yumuşayana kadar haşlayın, suyunu süzüp ayırın.\n4. Balıkların etlerini kılçıklarından ayırın.\n5. Tereyağını tencerede eritip doğranmış taze soğan, deniz börülcesi ve balık etlerini kavurun.\n6. Ayırdığınız balık suyunu ve ince doğranmış rezene ekleyip kaynamaya bırakın.\n7. Tuz ve karabiber ile tatlandırın.\n8. Kaselere paylaştırıp sıcak olarak servis edin.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_067",
+          "quantity": 1000
+        },
+        {
+          "ingredientId": "ing_068",
+          "quantity": 50
+        },
+        {
+          "ingredientId": "ing_069",
+          "quantity": 50
+        },
+        {
+          "ingredientId": "ing_048",
+          "quantity": 50
+        },
+        {
+          "ingredientId": "ing_070",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_071",
+          "quantity": 10
+        },
+        {
+          "ingredientId": "ing_003",
+          "quantity": 200
+        },
+        {
+          "ingredientId": "ing_047",
+          "quantity": 20
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_006",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "rcp_120",
+      "name": "Pazı Sarması",
+      "authorId": "au_001",
+      "region": "Ege",
+      "city": "İzmir",
+      "prepMin": 50,
+      "localImgUrl": "img/recipes/pazisarmasi.png",
+      "ratings": {
+        "taste": 4.6,
+        "healthiness": 4.8,
+        "difficulty": 2.4,
+        "overall": 4.5
+      },
+      "instructions": "1. Bulguru sıcak suyla ıslatıp kabarması için bekletin.\n2. Soğanları küp doğrayın, naneyi kıyın.\n3. Bulgur, soğan, nane, süzme yoğurt, tuz, karabiber ve toz biberi karıştırın.\n4. Pazıları haşlayıp damarlı kısımlarını temizleyin.\n5. Hazırladığınız içten pazı yapraklarına koyup sarın.\n6. Tencerenin dibine 2 kat pazı yaprağı döşeyin, sarmaları üzerine dizin.\n7. Kalan zeytinyağını gezdirin.\n8. Kapağı kapalı şekilde kısık ateşte 15 dakika pişirin, sıcak servis edin.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_072",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_030",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_013",
+          "quantity": 200
+        },
+        {
+          "ingredientId": "ing_052",
+          "quantity": 15
+        },
+        {
+          "ingredientId": "ing_020",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_016",
+          "quantity": 120
+        },
+        {
+          "ingredientId": "ing_009",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_023",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_006",
+          "quantity": 2
+        }
+      ]
+    },
+    {
+      "id": "rcp_121",
+      "name": "Antalya Piyazı",
+      "authorId": "au_001",
+      "region": "Akdeniz",
+      "city": "Antalya",
+      "prepMin": 25,
+      "localImgUrl": "img/recipes/antalyapiyazi.png",
+      "ratings": {
+        "taste": 4.9,
+        "healthiness": 5.0,
+        "difficulty": 2.0,
+        "overall": 4.9
+      },
+      "instructions": "1. Haşlanmış fasulyeyi geniş bir kaseye alın. Üzerine doğranmış domates, piyazlık doğranmış soğan ve kıyılmış maydanozu ekleyin.\n2. Üzerine yarım çay kaşığı kimyon ve sumak serpin, karıştırın.\n3. Ayrı bir kasede tahin, limon suyu, dövülmüş sarımsak, sirke, zeytinyağı, ılık su, tuz ve çeyrek çay kaşığı kimyonu karıştırarak sosu hazırlayın.\n4. Sosu fasulyeli karışımın üzerine dökün ve iyice harmanlayın.\n5. Üzerine dilimlenmiş haşlanmış yumurtayı yerleştirerek servis edin.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_073",
+          "quantity": 240
+        },
+        {
+          "ingredientId": "ing_031",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_046",
+          "quantity": 50
+        },
+        {
+          "ingredientId": "ing_020",
+          "quantity": 50
+        },
+        {
+          "ingredientId": "ing_048",
+          "quantity": 3
+        },
+        {
+          "ingredientId": "ing_074",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_022",
+          "quantity": 1.5
+        },
+        {
+          "ingredientId": "ing_040",
+          "quantity": 80
+        },
+        {
+          "ingredientId": "ing_043",
+          "quantity": 10
+        },
+        {
+          "ingredientId": "ing_025",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_041",
+          "quantity": 45
+        },
+        {
+          "ingredientId": "ing_009",
+          "quantity": 60
+        },
+        {
+          "ingredientId": "ing_013",
+          "quantity": 50
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 5
+        }
+      ]
+    },
+
+
+    {
+      "id": "rcp_122",
+      "name": "Karides Güveç",
+      "authorId": "au_002",
+      "region": "Ege",
+      "city": "İzmir",
+      "prepMin": 35,
+      "localImgUrl": "img/recipes/karidesguvec.png",
+      "ratings": {
+        "taste": 4.9,
+        "healthiness": 4.4,
+        "difficulty": 2.3,
+        "overall": 4.7
+      },
+      "instructions": "1. Tereyağını güveçte eritin. Küçük doğranmış soğan ve ezilmiş sarımsağı ekleyip pembeleşene kadar kavurun.\n2. Doğranmış kapya biber, yeşil biber ve domatesi ekleyin. Sebzeler yumuşayana kadar pişirin.\n3. Ayıklanmış karidesleri ekleyin. Baharatları (toz biber, karabiber, tuz) ilave edin. 4–5 dakika soteleyin.\n4. Üzerine rendelenmiş kaşar peynirini serpin.\n5. 200°C fırında 10 dakika kadar, peynir eriyip kızarana dek pişirin. Sıcak servis edin.",
+      "ingredients": [
+        { "ingredientId": "ing_075", "quantity": 200 },
+        { "ingredientId": "ing_003", "quantity": 15 },
+        { "ingredientId": "ing_020", "quantity": 1 },
+        { "ingredientId": "ing_025", "quantity": 6 },
+        { "ingredientId": "ing_046", "quantity": 1 },
+        { "ingredientId": "ing_077", "quantity": 80 },
+        { "ingredientId": "ing_061", "quantity": 1 },
+        { "ingredientId": "ing_023", "quantity": 1.5 },
+        { "ingredientId": "ing_006", "quantity": 0.5 },
+        { "ingredientId": "ing_011", "quantity": 5 },
+        { "ingredientId": "ing_076", "quantity": 40 }
+      ]
+    }
+    
+  ]
+}
