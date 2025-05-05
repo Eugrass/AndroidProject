@@ -236,7 +236,7 @@
       "id": "ing_037",
       "name": "Labada Yaprağı",
       "imgUrl": "img/ingredients/labada.png",
-      "unit": "adet"
+      "unit": "demet"
     },
     {
       "id": "ing_038",
@@ -477,7 +477,122 @@
       "name": "Kapya Biber",
       "imgUrl": "img/ingredients/kapyabiber.png",
       "unit": "g"
+    },
+    {
+      "id": "ing_078",
+      "name": "Biber Salçası",
+      "imgUrl": "img/ingredients/bibersalcasi.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_079",
+      "name": "Ekmek Kırıntısı",
+      "imgUrl": "img/ingredients/ekmekkirintisi.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_080",
+      "name": "Nar Ekşisi",
+      "imgUrl": "img/ingredients/nareksisi.png",
+      "unit": "ml"
+    },
+    {
+      "id": "ing_081",
+      "name": "Kabak",
+      "imgUrl": "img/ingredients/kabak.png",
+      "unit": "adet"
+    },
+    {
+      "id": "ing_082",
+      "name": "Dana Kontrfile",
+      "imgUrl": "img/ingredients/danakontrfile.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_083",
+      "name": "Pamuk Yağı",
+      "imgUrl": "img/ingredients/pamukyagi.png",
+      "unit": "ml"
+    },
+    {
+      "id": "ing_084",
+      "name": "Tandır Lavaşı",
+      "imgUrl": "img/ingredients/tandirlavasi.png",
+      "unit": "adet"
+    },
+    {
+      "id": "ing_085",
+      "name": "Köftelik Bulgur",
+      "imgUrl": "img/ingredients/koftelikbulgur.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_086",
+      "name": "Haşlanmış Nohut",
+      "imgUrl": "img/ingredients/haslanmisnohut.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_087",
+      "name": "Nişasta",
+      "imgUrl": "img/ingredients/nisasta.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_088",
+      "name": "Pudra Şekeri",
+      "imgUrl": "img/ingredients/pudrasekeri.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_089",
+      "name": "Gül Suyu",
+      "imgUrl": "img/ingredients/gulsuyu.png",
+      "unit": "ml"
+    },
+    {
+      "id": "ing_090",
+      "name": "Kırmızı Meyve",
+      "imgUrl": "img/ingredients/kirmizimeyve.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_091",
+      "name": "Rendelenmiş Buz",
+      "imgUrl": "img/ingredients/rendelenmisbuz.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_092",
+      "name": "Muz",
+      "imgUrl": "img/ingredients/muz.png",
+      "unit": "adet"
+    },
+    {
+      "id": "ing_093",
+      "name": "Antakya Peyniri",
+      "imgUrl": "img/ingredients/antakyapeyniri.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_094",
+      "name": "Pırasa",
+      "imgUrl": "img/ingredients/pirasa.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_095",
+      "name": "Mısır Unu",
+      "imgUrl": "img/ingredients/misirunu.png",
+      "unit": "g"
+    },
+    {
+      "id": "ing_096",
+      "name": "Beyaz Peynir",
+      "imgUrl": "img/ingredients/beyazpeynir.png",
+      "unit": "g"
     }
+    
   ],
   "recipes": [
     {
@@ -1686,7 +1801,7 @@
         },
         {
           "ingredientId": "ing_022",
-          "quantity": 1
+          "quantity": 1.5
         },
         {
           "ingredientId": "ing_040",
@@ -1718,12 +1833,10 @@
         }
       ]
     },
-
-
     {
       "id": "rcp_122",
       "name": "Karides Güveç",
-      "authorId": "au_002",
+      "authorId": "au_001",
       "region": "Ege",
       "city": "İzmir",
       "prepMin": 35,
@@ -1736,17 +1849,514 @@
       },
       "instructions": "1. Tereyağını güveçte eritin. Küçük doğranmış soğan ve ezilmiş sarımsağı ekleyip pembeleşene kadar kavurun.\n2. Doğranmış kapya biber, yeşil biber ve domatesi ekleyin. Sebzeler yumuşayana kadar pişirin.\n3. Ayıklanmış karidesleri ekleyin. Baharatları (toz biber, karabiber, tuz) ilave edin. 4–5 dakika soteleyin.\n4. Üzerine rendelenmiş kaşar peynirini serpin.\n5. 200°C fırında 10 dakika kadar, peynir eriyip kızarana dek pişirin. Sıcak servis edin.",
       "ingredients": [
-        { "ingredientId": "ing_075", "quantity": 200 },
-        { "ingredientId": "ing_003", "quantity": 15 },
-        { "ingredientId": "ing_020", "quantity": 1 },
-        { "ingredientId": "ing_025", "quantity": 6 },
-        { "ingredientId": "ing_046", "quantity": 1 },
-        { "ingredientId": "ing_077", "quantity": 80 },
-        { "ingredientId": "ing_061", "quantity": 1 },
-        { "ingredientId": "ing_023", "quantity": 1 },
-        { "ingredientId": "ing_006", "quantity": 1 },
-        { "ingredientId": "ing_011", "quantity": 5 },
-        { "ingredientId": "ing_076", "quantity": 40 }
+        {
+          "ingredientId": "ing_075",
+          "quantity": 200
+        },
+        {
+          "ingredientId": "ing_003",
+          "quantity": 15
+        },
+        {
+          "ingredientId": "ing_020",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_025",
+          "quantity": 6
+        },
+        {
+          "ingredientId": "ing_046",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_077",
+          "quantity": 80
+        },
+        {
+          "ingredientId": "ing_061",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_023",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_006",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_076",
+          "quantity": 40
+        }
+      ]
+    },
+    {
+      "id": "rcp_123",
+      "name": "Muhammara",
+      "authorId": "au_001",
+      "region": "Akdeniz",
+      "city": "Hatay",
+      "prepMin": 20,
+      "localImgUrl": "img/recipes/muhammara.png",
+      "ratings": {
+        "taste": 4.8,
+        "healthiness": 4.5,
+        "difficulty": 2.1,
+        "overall": 4.7
+      },
+      "instructions": "1. Domates ve biber salçasını derin bir kasede karıştırın.\n2. Zeytinyağını ekleyin ve iyice yedirin.\n3. Dövülmüş sarımsakları, ekmek kırıntısını, ceviz içini ve baharatları ekleyerek karıştırın.\n4. Tüm malzemeleri homojen kıvama gelene kadar yoğurun.\n5. Servis tabağına alın. Üzerine nar ekşisi gezdirin, ceviz parçaları ve dereotu ile süsleyerek servis yapın.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_024",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_078",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_009",
+          "quantity": 200
+        },
+        {
+          "ingredientId": "ing_079",
+          "quantity": 140
+        },
+        {
+          "ingredientId": "ing_042",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_025",
+          "quantity": 18
+        },
+        {
+          "ingredientId": "ing_006",
+          "quantity": 4
+        },
+        {
+          "ingredientId": "ing_022",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_021",
+          "quantity": 4
+        },
+        {
+          "ingredientId": "ing_051",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_042",
+          "quantity": 10
+        },
+        {
+          "ingredientId": "ing_080",
+          "quantity": 20
+        }
+      ]
+    },
+    {
+      "id": "rcp_124",
+      "name": "Mücver",
+      "authorId": "au_002",
+      "region": "Ege",
+      "city": "Muğla",
+      "prepMin": 30,
+      "localImgUrl": "img/recipes/mucver.png",
+      "ratings": {
+        "taste": 4.6,
+        "healthiness": 4.4,
+        "difficulty": 2.0,
+        "overall": 4.5
+      },
+      "instructions": "1. Kabakları rendeleyin ve suyunu sıkın. Havuçları da rendeleyin.\n2. Geniş bir kaba rendelenmiş kabak, havuç, ince doğranmış taze soğan ve dereotunu alın.\n3. Çırpılmış yumurtaları ve unu ekleyip karıştırın.\n4. Tuz ve karabiber ile tatlandırın. Karışım koyu kıvamlı olmalı.\n5. Tavaya sıvı yağı alın, ısıtın. Karışımdan kaşıkla alıp tavaya bırakın.\n6. Her iki tarafı da altın rengi olana kadar kızartın. Kağıt havlu üzerine alıp fazla yağı süzdürün. Sıcak veya ılık servis edin.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_081",
+          "quantity": 3
+        },
+        {
+          "ingredientId": "ing_031",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_055",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_018",
+          "quantity": 50
+        },
+        {
+          "ingredientId": "ing_047",
+          "quantity": 30
+        },
+        {
+          "ingredientId": "ing_051",
+          "quantity": 15
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 6
+        },
+        {
+          "ingredientId": "ing_006",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_027",
+          "quantity": 100
+        }
+      ]
+    },
+    {
+      "id": "rcp_125",
+      "name": "Tantuni",
+      "authorId": "au_002",
+      "region": "Akdeniz",
+      "city": "Mersin",
+      "prepMin": 30,
+      "localImgUrl": "img/recipes/tantuni.png",
+      "ratings": {
+        "taste": 4.8,
+        "healthiness": 4.2,
+        "difficulty": 2.4,
+        "overall": 4.6
+      },
+      "instructions": "1. Dana kontrfileyi ince jülyen doğrayın. Tavaya pamuk yağı ekleyip kızdırın.\n2. Eti tavaya alıp yüksek ateşte kavurun.\n3. Tuz, toz biber ve suyu ekleyip birkaç dakika daha pişirin.\n4. Tandır lavaşlarını tavada ısıtarak hazırlayın.\n5. Lavaşın ortasına et karışımını koyun. Üzerine isteğe bağlı olarak doğranmış domates, soğan ve maydanoz ekleyin.\n6. Lavaşı sararak servis edin.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_084",
+          "quantity": 4
+        },
+        {
+          "ingredientId": "ing_082",
+          "quantity": 400
+        },
+        {
+          "ingredientId": "ing_083",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_023",
+          "quantity": 5
+        },
+        {
+          "ingredientId": "ing_013",
+          "quantity": 50
+        },
+        {
+          "ingredientId": "ing_048",
+          "quantity": 10
+        },
+        {
+          "ingredientId": "ing_046",
+          "quantity": 200
+        },
+        {
+          "ingredientId": "ing_020",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "rcp_126",
+      "name": "Fellah Köftesi",
+      "authorId": "au_002",
+      "region": "Akdeniz",
+      "city": "Adana",
+      "prepMin": 50,
+      "localImgUrl": "img/recipes/fellahkoftesi.png",
+      "ratings": {
+        "taste": 4.7,
+        "healthiness": 4.5,
+        "difficulty": 2.6,
+        "overall": 4.6
+      },
+      "instructions": "1. Bulguru geniş bir kaseye alın, sıcak suyu dökün ve üzerini kapatarak 10 dakika şişmesini bekleyin.\n2. Üzerine un, yumurta, baharatlar ve biber salçasını ekleyip yoğurun. Köfte harcı kıvam alınca nohut büyüklüğünde yuvarlayın.\n3. Geniş bir tencerede 1.5 litre su kaynatın, tuz ekleyin ve köfteleri haşlayın. Yumuşayınca süzerek kenara alın.\n4. Sos için zeytinyağını tavada kızdırın, rendelenmiş sarımsak, pul biber, rendelenmiş domates, salça, tuz ve karabiberi ekleyip birkaç dakika pişirin.\n5. Haşlanan köfteleri sosla karıştırın, sıcak servis edin.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_085",
+          "quantity": 320
+        },
+        {
+          "ingredientId": "ing_013",
+          "quantity": 500
+        },
+        {
+          "ingredientId": "ing_018",
+          "quantity": 120
+        },
+        {
+          "ingredientId": "ing_031",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_022",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_006",
+          "quantity": 3
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 9
+        },
+        {
+          "ingredientId": "ing_078",
+          "quantity": 30
+        },
+        {
+          "ingredientId": "ing_009",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_021",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_046",
+          "quantity": 120
+        },
+        {
+          "ingredientId": "ing_025",
+          "quantity": 6
+        },
+        {
+          "ingredientId": "ing_011",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_006",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "rcp_127",
+      "name": "Analı Kızlı Çorbası",
+      "authorId": "au_002",
+      "region": "Akdeniz",
+      "city": "Adana",
+      "prepMin": 90,
+      "localImgUrl": "img/recipes/analikizlicorbasi.png",
+      "ratings": {
+        "taste": 4.8,
+        "healthiness": 4.5,
+        "difficulty": 4.3,
+        "overall": 4.7
+      },
+      "instructions": "1. İç harcı için kıymayı kavurun. Soğanı ekleyip kavurmaya devam edin. Tereyağı, tuz ve baharatları ekleyip ocaktan alın.\n2. Etleri ayrı bir tencerede kavurun. Salçaları ekleyin, ardından suyu ilave edip 40 dakika pişirin.\n3. Köfte harcı için bulgur ve irmiği suyla ıslatın, 10 dakika bekletin.\n4. Soğan, salçalar ve baharatları ekleyip 10 dakika daha yoğurun. Un ve yumurtayı ekleyip 10 dakika daha yoğurun.\n5. İçli köfteleri elinizle açıp kıymalı içten koyarak kapatın. Küçük köfteleri de yuvarlayarak hazırlayın.\n6. Etli karışıma haşlanmış nohut ve köfteleri ekleyin. Limon suyunu da ilave edip 10 dakika pişirin.\n7. Üzeri için zeytinyağı ve tereyağında nane ve kırmızı biberi kızdırın. Çorbanın üzerine dökerek servis edin.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_001",
+          "quantity": 320
+        },
+        {
+          "ingredientId": "ing_004",
+          "quantity": 160
+        },
+        {
+          "ingredientId": "ing_013",
+          "quantity": 1500
+        },
+        {
+          "ingredientId": "ing_018",
+          "quantity": 20
+        },
+        {
+          "ingredientId": "ing_024",
+          "quantity": 10
+        },
+        {
+          "ingredientId": "ing_026",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_017",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_008",
+          "quantity": 2
+        },
+        {
+          "ingredientId": "ing_031",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_014",
+          "quantity": 180
+        },
+        {
+          "ingredientId": "ing_058",
+          "quantity": 150
+        },
+        {
+          "ingredientId": "ing_020",
+          "quantity": 1
+        },
+        {
+          "ingredientId": "ing_016",
+          "quantity": 15
+        },
+        {
+          "ingredientId": "ing_003",
+          "quantity": 4
+        },
+        {
+          "ingredientId": "ing_057",
+          "quantity": 300
+        },
+        {
+          "ingredientId": "ing_086",
+          "quantity": 320
+        },
+        {
+          "ingredientId": "ing_043",
+          "quantity": 30
+        },
+        {
+          "ingredientId": "ing_023",
+          "quantity": 4
+        },
+        {
+          "ingredientId": "ing_025",
+          "quantity": 6
+        }
+      ]
+    },
+    {
+      "id": "rcp_128",
+      "name": "Bici Bici",
+      "authorId": "au_002",
+      "region": "Akdeniz",
+      "city": "Adana",
+      "prepMin": 20,
+      "localImgUrl": "img/recipes/bicibici.png",
+      "ratings": {
+        "taste": 4.7,
+        "healthiness": 4.3,
+        "difficulty": 1.8,
+        "overall": 4.5
+      },
+      "instructions": "1. Nişasta ve suyu karıştırıp orta ateşte koyulaşana kadar pişirin. Muhallebi kıvamına geldiğinde bir kaba döküp soğumaya bırakın.\n2. Soğuyan muhallebiyi küçük küpler şeklinde doğrayın.\n3. Şerbet için su, pudra şekeri ve gül suyunu karıştırın.\n4. Muhallebi küplerini servis tabağına alın. Üzerine şerbet dökün.\n5. Üzerine kırmızı meyve, rendelenmiş buz ve dilimlenmiş muz ekleyin.\n6. Son olarak pudra şekeri serpip servis edin.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_013",
+          "quantity": 500
+        },
+        {
+          "ingredientId": "ing_087",
+          "quantity": 75
+        },
+        {
+          "ingredientId": "ing_088",
+          "quantity": 50
+        },
+        {
+          "ingredientId": "ing_089",
+          "quantity": 20
+        },
+        {
+          "ingredientId": "ing_090",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_091",
+          "quantity": 100
+        },
+        {
+          "ingredientId": "ing_088",
+          "quantity": 25
+        },
+        {
+          "ingredientId": "ing_092",
+          "quantity": 1
+        }
+      ]
+    },
+    {
+      "id": "rcp_129",
+      "name": "Künefe",
+      "authorId": "au_002",
+      "region": "Akdeniz",
+      "city": "Hatay",
+      "prepMin": 45,
+      "localImgUrl": "img/recipes/kunefe.png",
+      "ratings": {
+        "taste": 4.9,
+        "healthiness": 2.3,
+        "difficulty": 3.5,
+        "overall": 4.7
+      },
+      "instructions": "1. Şerbeti hazırlamak için şeker ve suyu bir tencerede kaynatın. Kaynadıktan sonra limon suyunu ekleyin ve birkaç dakika daha kaynatıp soğumaya bırakın.\n2. Tel kadayıfı ince ince parçalayıp eritilmiş tereyağı ile iyice harmanlayın.\n3. Kadayıfın yarısını tereyağlanmış tepsiye yayın ve bastırarak sıkıştırın.\n4. Üzerine rendelenmiş veya dilimlenmiş Antakya peynirini eşit şekilde yayın.\n5. Kalan kadayıfı da peynirin üzerini kapatacak şekilde yerleştirin ve tekrar bastırarak sıkıştırın.\n6. Orta ateşte her iki yüzünü de çevirerek kızarana kadar pişirin.\n7. Sıcak künefenin üzerine soğuk şerbeti dökün ve dilimleyerek servis edin.",
+      "ingredients": [
+        {
+          "ingredientId": "ing_002",
+          "quantity": 300
+        },
+        {
+          "ingredientId": "ing_027",
+          "quantity": 150
+        },
+        {
+          "ingredientId": "ing_093",
+          "quantity": 200
+        },
+        {
+          "ingredientId": "ing_005",
+          "quantity": 340
+        },
+        {
+          "ingredientId": "ing_001",
+          "quantity": 340
+        },
+        {
+          "ingredientId": "ing_023",
+          "quantity": 15
+        }
+      ]
+    },
+
+
+    {
+      "id": "rcp_130",
+      "name": "Kaşnika",
+      "authorId": "au_002",
+      "region": "Karadeniz",
+      "city": "Giresun",
+      "prepMin": 50,
+      "localImgUrl": "img/recipes/kasnika.png",
+      "ratings": {
+        "taste": 4.6,
+        "healthiness": 4.4,
+        "difficulty": 2.8,
+        "overall": 4.5
+      },
+      "instructions": "1. Pırasaları ince doğrayın ve az tuzla ovup bekletin.\n2. Yumurtaları bir kaba kırın. Üzerine yoğurt, ayçiçek yağı ve sütü ekleyip çırpın.\n3. Mısır unu, kabartma tozu, tuz ve kekik ekleyip karıştırın.\n4. Ufalanmış beyaz peyniri ve bekletilen pırasayı da karışıma ilave edip karıştırın.\n5. Karışımı yağlanmış fırın kabına dökün ve üzerini düzleştirin.\n6. Önceden ısıtılmış 180°C fırında 35-40 dakika pişirin.\n7. Ilık ya da sıcak servis edin.",
+      "ingredients": [
+        { "ingredientId": "ing_031", "quantity": 4 },
+        { "ingredientId": "ing_034", "quantity": 1 },
+        { "ingredientId": "ing_035", "quantity": 30 },
+        { "ingredientId": "ing_027", "quantity": 100 },
+        { "ingredientId": "ing_095", "quantity": 300 },
+        { "ingredientId": "ing_096", "quantity": 150 },
+        { "ingredientId": "ing_005", "quantity": 500 },
+        { "ingredientId": "ing_094", "quantity": 240 },
+        { "ingredientId": "ing_016", "quantity": 5 },
+        { "ingredientId": "ing_029", "quantity": 2 }
       ]
     }
     
