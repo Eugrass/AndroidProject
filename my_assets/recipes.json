@@ -1929,7 +1929,7 @@
         },
         {
           "ingredientId": "ing_042",
-          "quantity": 100
+          "quantity": 110
         },
         {
           "ingredientId": "ing_025",
@@ -1950,10 +1950,6 @@
         {
           "ingredientId": "ing_051",
           "quantity": 2
-        },
-        {
-          "ingredientId": "ing_042",
-          "quantity": 10
         },
         {
           "ingredientId": "ing_080",
@@ -2308,7 +2304,7 @@
           "quantity": 300
         },
         {
-          "ingredientId": "ing_027",
+          "ingredientId": "ing_003",
           "quantity": 150
         },
         {
@@ -2316,49 +2312,44 @@
           "quantity": 200
         },
         {
-          "ingredientId": "ing_005",
+          "ingredientId": "ing_012",
           "quantity": 340
         },
         {
-          "ingredientId": "ing_001",
+          "ingredientId": "ing_013",
           "quantity": 340
         },
         {
-          "ingredientId": "ing_023",
+          "ingredientId": "ing_043",
           "quantity": 15
         }
       ]
     },
-
-
     {
-      "id": "rcp_130",
-      "name": "Kaşnika",
-      "authorId": "au_002",
-      "region": "Karadeniz",
-      "city": "Giresun",
-      "prepMin": 50,
-      "localImgUrl": "img/recipes/kasnika.png",
-      "ratings": {
-        "taste": 4.6,
-        "healthiness": 4.4,
-        "difficulty": 2.8,
-        "overall": 4.5
-      },
-      "instructions": "1. Pırasaları ince doğrayın ve az tuzla ovup bekletin.\n2. Yumurtaları bir kaba kırın. Üzerine yoğurt, ayçiçek yağı ve sütü ekleyip çırpın.\n3. Mısır unu, kabartma tozu, tuz ve kekik ekleyip karıştırın.\n4. Ufalanmış beyaz peyniri ve bekletilen pırasayı da karışıma ilave edip karıştırın.\n5. Karışımı yağlanmış fırın kabına dökün ve üzerini düzleştirin.\n6. Önceden ısıtılmış 180°C fırında 35-40 dakika pişirin.\n7. Ilık ya da sıcak servis edin.",
-      "ingredients": [
-        { "ingredientId": "ing_031", "quantity": 4 },
-        { "ingredientId": "ing_034", "quantity": 1 },
-        { "ingredientId": "ing_035", "quantity": 30 },
-        { "ingredientId": "ing_027", "quantity": 100 },
-        { "ingredientId": "ing_095", "quantity": 300 },
-        { "ingredientId": "ing_096", "quantity": 150 },
-        { "ingredientId": "ing_005", "quantity": 500 },
-        { "ingredientId": "ing_094", "quantity": 240 },
-        { "ingredientId": "ing_016", "quantity": 5 },
-        { "ingredientId": "ing_029", "quantity": 2 }
-      ]
-    }
-    
+  "id": "rcp_130",
+  "name": "Kaşnika",
+  "authorId": "au_002",
+  "region": "Karadeniz",
+  "city": "Giresun",
+  "prepMin": 50,
+  "localImgUrl": "img/recipes/kasnika.png",
+  "ratings": {
+    "taste": 4.6,
+    "healthiness": 4.4,
+    "difficulty": 2.8,
+    "overall": 4.5
+  },
+  "instructions": "1. Pırasaları ince doğrayın ve az tuzla ovup bekletin.\n2. Yumurtaları bir kaba kırın. Üzerine yoğurt, ayçiçek yağı ve sütü ekleyip çırpın.\n3. Mısır unu, kabartma tozu, tuz ve kekik ekleyip karıştırın.\n4. Ufalanmış beyaz peyniri ve bekletilen pırasayı da karışıma ilave edip karıştırın.\n5. Karışımı yağlanmış fırın kabına dökün ve üzerini düzleştirin.\n6. Önceden ısıtılmış 180°C fırında 35-40 dakika pişirin.\n7. Ilık ya da sıcak servis edin.",
+  "ingredients": [
+    { "ingredientId": "ing_031", "quantity": 4 },
+    { "ingredientId": "ing_017", "quantity": 10 },
+    { "ingredientId": "ing_016", "quantity": 30 },
+    { "ingredientId": "ing_027", "quantity": 100 },
+    { "ingredientId": "ing_095", "quantity": 300 },
+    { "ingredientId": "ing_096", "quantity": 150 },
+    { "ingredientId": "ing_014", "quantity": 500 },
+    { "ingredientId": "ing_094", "quantity": 240 },
+    { "ingredientId": "ing_011", "quantity": 5 },
+    { "ingredientId": "ing_022", "quantity": 5 }
   ]
 }
